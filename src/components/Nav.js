@@ -1,7 +1,9 @@
 import React from "react";
 import Logo from "../Assets/Logo.png";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
+  const location = useLocation();
   return (
     <section className="bg-gradient-to-r from-[#ffffff] to-[#71C8E4] w-full py-7">
       <nav className="max-w-[83rem] mx-auto flex justify-between">
@@ -11,31 +13,70 @@ const Nav = () => {
             FIJAN
           </h2>
         </div>
-        <ul className="flex space-x-[4rem] mt-2">
+        <ul className="flex space-x-[4rem] mt-2 z-20">
           <li className="">
-            <button className="px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center">
-              Home
-            </button>
+            <Link to="/">
+              <button
+                className={
+                  location.pathname === "/"
+                    ? "px-7 py-3 bg-white text-[#014470] hover:bg-white transition duration-150 text-lg leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                    : "px-7 py-3 text-[#014470] text-lg  hover:bg-white transition duration-150 leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                }
+              >
+                Home
+              </button>
+            </Link>
           </li>
-          <li className="">
-            <button className="px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium flex justify-center items-center rounded-full border-2 border-[#014470]">
+
+          <Link to="/about">
+            <button
+              className={
+                location.pathname === "/about"
+                  ? "px-7 py-3 bg-white text-[#014470] text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                  : "px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center"
+              }
+            >
               About
             </button>
+          </Link>
+          <li className="">
+            <Link to="/service">
+              <button
+                className={
+                  location.pathname === "/service"
+                    ? "px-7 py-3 bg-white text-[#014470] text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                    : "px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center"
+                }
+              >
+                Services
+              </button>
+            </Link>
           </li>
           <li className="">
-            <button className="px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium flex justify-center items-center rounded-full border-2 border-[#014470]">
-              Services
-            </button>
+            <Link to="/contact">
+              <button
+                className={
+                  location.pathname === "/contact"
+                    ? "px-7 py-3 bg-white text-[#014470] text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                    : "px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center"
+                }
+              >
+                Contact Us
+              </button>
+            </Link>
           </li>
           <li className="">
-            <button className="px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium flex justify-center items-center rounded-full border-2 border-[#014470]">
-              Contact Us
-            </button>
-          </li>
-          <li className="">
-            <button className="px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium flex justify-center items-center rounded-full border-2 border-[#014470]">
-              Careers
-            </button>
+            <Link to="/careers">
+              <button
+                className={
+                  location.pathname === "/careers"
+                    ? "px-7 py-3 bg-white text-[#014470] text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center"
+                    : "px-7 py-3 text-[#014470] text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center"
+                }
+              >
+                Careers
+              </button>
+            </Link>
           </li>
         </ul>
         <ul className="mt-2">
