@@ -7,6 +7,7 @@ import Choose from "./Choose";
 import Jobs from "./Jobs";
 import Frequent from "./Frequent";
 import Blogs from "./Blogs";
+import Settle from "./Settle";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <About />
       <Choose />
       <Jobs />
+      <Settle />
       <Blogs />
       <Frequent />
     </>

@@ -28,38 +28,15 @@ const Frequent = () => {
     },
   ];
   return (
-    <section className="max-w-[83rem] m-auto  py-[4.5rem]">
-      <span className="flex justify-center items-center">
-        <div className="w-[74.25rem] h-[35rem] rounded-[3rem] bg-gradient-to-b from-[#0171BB] to-[#71C8E4] p-[5rem]">
-          <h6 className="text-center text-white text-[1.4rem] font-semibold leading-[1.25rem] pb-[1rem]">
-            HOT JOBS
-          </h6>
-          <h1 className="text-center special-font leading-[3.85rem] font-normal text-7xl text-white ">
-            Nursing and Healthcare Hot jobs
-          </h1>
-          <p className="text-white text-center text-[1.39rem] font-normal leading-[2.01rem] pt-[4rem]">
-            Shape your career in a place where your skills empower others.{" "}
-            <br />
-            Join Fijan healthcare for a rewarding journey in the healthcare
-            excellence
-          </p>
-
-          <div className="flex justify-center mt-[6rem]">
-            <button className="bg-[#098666] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-3 rounded-full">
-              Explore Careers
-              <IoArrowForward className="text-white text-xl" />
-            </button>
-          </div>
-        </div>
-      </span>
-      <div className="pt-[6rem]">
-        <h6 className="text-center text-[#098666] text-[1.4rem] font-semibold leading-[1.25rem] pb-[1rem]">
+    <section className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto md:h-[35rem] lg:h-0">
+      <div className="pt-[1rem]">
+        <h6 className="text-center md:text-base text-[#098666] lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem] lg:pb-[1rem]">
           FREQUENTLY ASKED QUESTIONS
         </h6>
-        <h1 className="text-center special-font leading-[3.85rem] font-normal text-7xl text-[#014470] ">
+        <h1 className="text-center special-font md:text-[2.8rem] lg:leading-[3.85rem] font-normal lg:text-[3.5rem] xl:text-6xl mac:text-7xl text-[#014470] ">
           Whats on your mind
         </h1>
-        <div className="flex justify-around pt-[5rem]">
+        <div className="flex md:justify-around lg:justify-between xl:justify-around md:py-[4rem] mac:py-[5rem]">
           <div>
             {questions.map((question, index) => (
               <div
@@ -67,11 +44,17 @@ const Frequent = () => {
                 className="flex items-center justify-between border-b-[1px] border-[#D6D5D5]"
               >
                 <p
-                  className={`${index === 0 ? "w-[28rem]" : ""} ${
-                    index === 1 ? "w-[23rem]" : ""
+                  className={`${index === 0 ? "mac:w-[28rem]" : ""} ${
+                    index === 1 ? "mac:w-[23rem]" : ""
+                  } ${index === 2 ? "mac:w-[23rem]" : ""} ${
+                    index === 0 ? "lg:w-[25rem]" : ""
+                  } ${index === 1 ? "lg:w-[18rem]" : ""} ${
+                    index === 2 ? "lg:w-[18rem]" : ""
+                  } ${index === 0 ? "xl:w-[27rem]" : ""} ${
+                    index === 1 ? "xl:w-[22rem]" : ""
                   } ${
-                    index === 2 ? "w-[23rem]" : ""
-                  } text-[#26465B] text-lg w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
+                    index === 2 ? "lg:w-[18rem]" : ""
+                  } text-[#26465B] lg:text-[15px] md:w-[18rem] md:text-[13px] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
                 >
                   {question.quest}
                 </p>
@@ -86,11 +69,17 @@ const Frequent = () => {
                 className="flex items-center justify-between border-b-[1px] border-[#D6D5D5]"
               >
                 <p
-                  className={`${index === 0 ? "w-[28rem]" : ""} ${
-                    index === 1 ? "w-[23rem]" : ""
+                  className={`${index === 0 ? "mac:w-[28rem]" : ""} ${
+                    index === 1 ? "mac:w-[23rem]" : ""
+                  } ${index === 2 ? "mac:w-[23rem]" : ""} ${
+                    index === 0 ? "lg:w-[27rem]" : ""
+                  } ${index === 1 ? "lg:w-[18rem]" : ""} ${
+                    index === 2 ? "lg:w-[18rem]" : ""
+                  }${index === 0 ? "xl:w-[27rem]" : ""} ${
+                    index === 1 ? "xl:w-[22rem]" : ""
                   } ${
-                    index === 2 ? "w-[23rem]" : ""
-                  } text-[#26465B] text-lg w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
+                    index === 2 ? "lg:w-[18rem]" : ""
+                  }  text-[#26465B] lg:text-[15px] md:text-[13px] md:w-[18rem] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
                 >
                   {ask.quest}
                 </p>
