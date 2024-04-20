@@ -8,7 +8,7 @@ const Nav = () => {
   const location = useLocation();
   return (
     <section
-      className={`bg-gradient-to-r relative py-10 from-[#ffffff] to-[#71C8E4] w-full `}
+      className={`bg-gradient-to-r relative py-10 lg:py-14 from-[#ffffff] to-[#71C8E4] w-full `}
     >
       <nav className="mac:max-w-[83rem] absolute top-7 left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between">
         <div className="flex items-center gap-2 mt-2">
@@ -48,7 +48,7 @@ const Nav = () => {
             </button>
           </Link>
           <li className="">
-            <Link to="/service">
+            <Link to="/services">
               <button
                 className={
                   location.pathname === "/service"

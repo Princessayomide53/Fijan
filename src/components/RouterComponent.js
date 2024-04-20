@@ -29,7 +29,7 @@ const RouterComponent = () => {
           }
         />
         <Route
-          path="/service"
+          path="/services"
           element={
             <Layout>
               <Service />
