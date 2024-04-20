@@ -58,22 +58,22 @@ const Choose = () => {
     },
   ];
   return (
-    <section className="mac:max-w-[70rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto lg:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]">
-      <h6 className="text-[#098666] md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center pb-[1rem]">
+    <section className="mac:max-w-[70rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3rem] lg:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]">
+      <h6 className="text-[#098666] text-xs md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center">
         WHY CHOOSE US
       </h6>
-      <h3 className="text-[#014470] leading-normal md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]">
+      <h3 className="text-[#014470] text-3xl leading-tight md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]">
         Why Settle for Less? Discover the <br /> Difference in Our Exquisite
         Care
       </h3>
-      <div className="flex md:py-[4rem] xl:py-[5.5rem] justify-between overflow-x-auto">
+      <div className="flex py-[2rem] md:pt-[4rem] md:py-0 lg:pt-0 xl:py-[4rem] justify-between overflow-x-auto">
         {cards.map((card) => (
           <div
             key={card.id}
-            className="min-w-[17.94rem] max-w-[19.94rem] mx-[1.5rem] min-h-[16.25rem] max-h-[23.25rem] bg-[#E1F8FF] px-[1.5rem] py-[2.2rem]"
+            className="min-w-[19rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1.5rem] min-h-[10.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1.5rem] py-[1.5rem] lg:py-[2.2rem]"
           >
             <img src={card.icon} alt="" />
-            <h2 className="text-[#014470] special-font text-[1.45rem] lg:text-[1.8rem] font-normal leading-normal">
+            <h2 className="text-[#014470] special-font text-[1.45rem] lg:text-[1.7rem] font-normal leading-normal">
               {card.title}
             </h2>{" "}
             <p className="text-[#26465B] font-normal leading-[1.4rem] text-[0.94rem] pt-[1rem]">

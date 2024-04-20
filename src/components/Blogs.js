@@ -15,25 +15,25 @@ const Blogs = () => {
     { id: 3, img: Blog2 },
   ];
   return (
-    <section className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[4.5rem] md:pb-[4rem] lg:pb-[6rem]">
-      <h5 className="text-center text-[#098666] md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] lg:pb-[1rem]">
+    <section className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem]  mx-auto pb-[2rem] md:pb-[4rem] lg:pb-[6rem]">
+      <h5 className="text-center text-[#098666] text-xs md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] ">
         NAVIGATING HEALTHCARE INSIGHTS
       </h5>
-      <h1 className="text-center special-font md:text-4xl md:leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-7xl text-[#014470] ">
+      <h1 className="text-center text-4xl special-font md:text-4xl md:leading-tight lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-7xl text-[#014470] ">
         Our Blog
       </h1>
-      <div className="flex items-center mt-[4rem]">
+      <div className="flex items-center mt-[2.5rem] md:mt-[4rem]">
         {blogs.map((blog, index) => (
           <article className="flex" key={index}>
             <img src={blog.img} alt="" className="bg-opacity-90" />
           </article>
         ))}
       </div>
-      <div className="relative ">
+      {/* <div className="relative ">
         <span className="mx-10 rounded-full bg-white">
           <IoArrowForward className="text-black  text-xl z-20 absolute left-[5rem] -top-[12rem]" />
         </span>
-      </div>
+      </div> */}
       {/* <Swiper
         effect={"coverflow"}
         grabCursor={true}

@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../Assets/Logo.png";
 import { Link, useLocation } from "react-router-dom";
+import { Squash as Hamburger } from "hamburger-react";
 
 const Nav = () => {
+  const [nav, setNav] = useState(false);
   const location = useLocation();
   return (
-    <section className="bg-gradient-to-r from-[#ffffff] to-[#71C8E4] w-full py-7">
-      <nav className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between">
+    <section
+      className={`bg-gradient-to-r relative py-10 from-[#ffffff] to-[#71C8E4] w-full `}
+    >
+      <nav className="mac:max-w-[83rem] absolute top-7 left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between">
         <div className="flex items-center gap-2 mt-2">
           <img
             src={Logo}
@@ -88,7 +92,38 @@ const Nav = () => {
             Get Started
           </li>
         </ul>
-      </nav>
+        <div className="lg:hidden block ">
+          <Hamburger
+            direction="squash"
+            size={25}
+            color="black"
+            className="burger-menu"
+            toggled={nav}
+            toggle={() => setNav(!nav)}
+          />
+        </div>{" "}
+      </nav>{" "}
+      {nav && (
+        <div className="w-full absolute top-[5.5rem] left-0 h-screen z-20  bg-gradient-to-r from-[#ffffff] to-[#71C8E4]">
+          <ul className="flex flex-col space-y-[2.5rem] mt-5 p-7">
+            <li className="text-[#014470] text-xl hover:text-[#098666]">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="text-[#014470] text-xl hover:text-[#098666]">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="text-[#014470] text-xl hover:text-[#098666]">
+              <Link to="/services">Services</Link>
+            </li>
+            <li className="text-[#014470] text-xl hover:text-[#098666]">
+              <Link to="/contact">Contact Us</Link>
+            </li>
+            <li className="text-[#014470] text-xl hover:text-[#098666]">
+              <Link to="/careers">Careers</Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </section>
   );
 };

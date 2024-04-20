@@ -6,6 +6,7 @@ module.exports = {
       screens: {
         mac: "1440px",
         pro: "912px",
+        // air: "820px",
       },
     },
   },
