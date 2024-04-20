@@ -61,15 +61,15 @@ const HealthCare = () => {
     },
   ];
   return (
-    <section className="mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3rem] md:pt-[4rem] xl:pt-[6rem] mac:pt-[0rem] mac:pb-[10.5rem]">
-      <h1 className="text-left special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] ">
+    <section className="mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[65rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[0rem] md:pt-[0rem] mac:pt-[0rem] mac:pb-[8.5rem]">
+      <h1 className="text-center md:text-left md:px-2 xl:px-7 mac:px-0 special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] ">
         Healthcare Assistant
       </h1>
-      <div className="flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-around pt-[2rem] md:pt-[2.5rem] mac:justify-between lg:py-[3.7rem] xl:py-[5rem]">
+      <div className="flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-between xl:justify-around py-[2rem] md:py-[2.5rem] mac:justify-between lg:py-[3.7rem] xl:py-[5rem]">
         {jobs.map((job) => (
           <div
             key={job.id}
-            className="md:w-[12.8375rem] w-[16rem] h-[17rem] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[21.575rem] bg-[#E1F8FF] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]"
+            className="md:w-[12.8375rem] w-[16rem] h-[17rem] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[22.375rem] bg-[#E1F8FF] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]"
           >
             <h4 className="text-[#0171BB] lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[12px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]">
               {job.title}
@@ -90,14 +90,14 @@ const HealthCare = () => {
         ))}
       </div>
       <div className="pt-[0rem]">
-        <h1 className="text-left special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] ">
-          Registered Mental Nurse - RMN
+        <h1 className="text-center md:text-left md:px-2 xl:px-7 mac:px-0 special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] ">
+          Support Worker
         </h1>
-        <div className="flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-around pt-[2rem] md:pt-[2.5rem] mac:justify-between lg:py-[3.7rem] xl:py-[5rem]">
+        <div className="flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-between xl:justify-around py-[2rem] md:pt-[2.5rem] mac:justify-between lg:py-[3.7rem] xl:py-[5rem]">
           {nurses.map((jobs) => (
             <div
               key={jobs.id}
-              className="md:w-[12.8375rem] w-[16rem] h-[17rem] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[21.575rem] bg-[#098666] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]"
+              className="md:w-[12.8375rem] w-[16rem] h-[17rem] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[22.375rem] bg-[#098666] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]"
             >
               <h4 className="text-white lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[12px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]">
                 {jobs.title}

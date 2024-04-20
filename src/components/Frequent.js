@@ -28,7 +28,7 @@ const Frequent = () => {
     },
   ];
   return (
-    <section className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto md:h-[35rem] lg:h-0">
+    <section className="mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[21rem] mx-auto md:h-[35rem] lg:h-0">
       <div className="pt-[1rem]">
         <h6 className="text-center text-xs md:text-base text-[#098666] lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]">
           FREQUENTLY ASKED QUESTIONS
@@ -56,7 +56,7 @@ const Frequent = () => {
                     index === 1 ? "w-[17rem]" : ""
                   } ${
                     index === 2 ? "w-[17rem]" : ""
-                  } text-[#26465B] lg:text-[15px] md:w-[18rem] md:text-[13px] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
+                  } text-[#26465B] lg:text-[15px] text-sm md:w-[18rem] md:text-[13px] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
                 >
                   {question.quest}
                 </p>
@@ -83,7 +83,7 @@ const Frequent = () => {
                     index === 1 ? "w-[17rem]" : ""
                   } ${
                     index === 2 ? "w-[17rem]" : ""
-                  } text-[#26465B] lg:text-[15px] md:text-[13px] md:w-[18rem] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
+                  } text-[#26465B] text-sm lg:text-[15px] md:text-[13px] md:w-[18rem] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
                 >
                   {ask.quest}
                 </p>
