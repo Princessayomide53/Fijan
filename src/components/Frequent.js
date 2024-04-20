@@ -56,7 +56,7 @@ const Frequent = () => {
                     index === 1 ? "w-[17rem]" : ""
                   } ${
                     index === 2 ? "w-[17rem]" : ""
-                  } text-[#26465B] lg:text-[15px] md:w-[18rem] md:text-[13px] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
+                  } text-[#26465B] lg:text-[15px] md:w-[18rem] md:text-[13px] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
                 >
                   {question.quest}
                 </p>
@@ -83,7 +83,7 @@ const Frequent = () => {
                     index === 1 ? "w-[17rem]" : ""
                   } ${
                     index === 2 ? "w-[17rem]" : ""
-                  } text-[#26465B] lg:text-[15px] md:text-[13px] md:w-[18rem] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1rem]`}
+                  } text-[#26465B] lg:text-[15px] md:text-[13px] md:w-[18rem] mac:text-lg lg:w-[21rem] xl:w-[25rem] mac:w-[30rem] font-normal whitespace-normal leading-normal py-[1.2rem]`}
                 >
                   {ask.quest}
                 </p>
