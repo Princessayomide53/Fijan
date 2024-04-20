@@ -47,9 +47,9 @@ const Frequent = () => {
                   className={`${index === 0 ? "mac:w-[28rem]" : ""} ${
                     index === 1 ? "mac:w-[23rem]" : ""
                   } ${index === 2 ? "mac:w-[23rem]" : ""} ${
-                    index === 0 ? "lg:w-[25rem]" : ""
-                  } ${index === 1 ? "lg:w-[18rem]" : ""} ${
-                    index === 2 ? "lg:w-[18rem]" : ""
+                    index === 0 ? "lg:w-[18rem]" : ""
+                  } ${index === 1 ? "lg:w-[15rem]" : ""} ${
+                    index === 2 ? "lg:w-[15rem]" : ""
                   } ${index === 0 ? "xl:w-[27rem]" : ""} ${
                     index === 1 ? "xl:w-[22rem]" : ""
                   } ${index === 2 ? "lg:w-[18rem]" : ""} ${
@@ -74,9 +74,9 @@ const Frequent = () => {
                   className={`${index === 0 ? "mac:w-[28rem]" : ""} ${
                     index === 1 ? "mac:w-[23rem]" : ""
                   } ${index === 2 ? "mac:w-[23rem]" : ""} ${
-                    index === 0 ? "lg:w-[27rem]" : ""
-                  } ${index === 1 ? "lg:w-[18rem]" : ""} ${
-                    index === 2 ? "lg:w-[18rem]" : ""
+                    index === 0 ? "lg:w-[18rem]" : ""
+                  } ${index === 1 ? "lg:w-[15rem]" : ""} ${
+                    index === 2 ? "lg:w-[15rem]" : ""
                   }${index === 0 ? "xl:w-[27rem]" : ""} ${
                     index === 1 ? "xl:w-[22rem]" : ""
                   } ${index === 2 ? "lg:w-[18rem]" : ""}   ${
