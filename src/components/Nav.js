@@ -8,9 +8,9 @@ const Nav = () => {
   const location = useLocation();
   return (
     <section
-      className={`bg-gradient-to-r z-[100] fixed py-[2.5rem] lg:py-14 from-[#ffffff] to-[#71C8E4] w-full `}
+      className={`bg-gradient-to-r z-[100] fixed py-[2.6rem] lg:py-14 from-[#ffffff] to-[#71C8E4] w-full `}
     >
-      <nav className='mac:max-w-[83rem] absolute top-4 z-50 left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between'>
+      <nav className='mac:max-w-[83rem] absolute top-7 lg:top-8 z-50 left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between'>
         <div className='flex items-center gap-2 mt-2'>
           <Link to='/'>
             <img
@@ -29,8 +29,8 @@ const Nav = () => {
               <button
                 className={
                   location.pathname === '/'
-                    ? 'xl:px-7 lg:px-5 py-3 bg-white text-[#014470] hover:bg-white transition duration-150 lg:text-base xl:text-lg leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-3 text-[#014470] lg:text-base xl:text-lg hover:bg-white transition duration-150 leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] hover:bg-white transition duration-150 lg:text-base xl:text-lg leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg hover:bg-white transition duration-150 leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Home
@@ -42,8 +42,8 @@ const Nav = () => {
             <button
               className={
                 location.pathname === '/about'
-                  ? 'xl:px-7 lg:px-5 py-3 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                  : 'xl:px-7 lg:px-5 py-3 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                  ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                  : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
               }
             >
               About
@@ -54,8 +54,8 @@ const Nav = () => {
               <button
                 className={
                   location.pathname === '/service'
-                    ? 'xl:px-7 lg:px-5 py-3 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-3 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Services
@@ -67,8 +67,8 @@ const Nav = () => {
               <button
                 className={
                   location.pathname === '/contact'
-                    ? 'xl:px-7 lg:px-5 py-3 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-3 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Contact Us
@@ -80,8 +80,8 @@ const Nav = () => {
               <button
                 className={
                   location.pathname === '/careers'
-                    ? 'xl:px-7 lg:px-5 py-3 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-3 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Careers
@@ -90,7 +90,7 @@ const Nav = () => {
           </li>
         </ul>
         <ul className='mt-2 hidden lg:flex'>
-          <li className=' lg:px-5 xl:px-7 py-3 flex justify-center items-center rounded-full bg-[#098666] text-white'>
+          <li className=' lg:px-5 xl:px-7 py-1 flex justify-center items-center rounded-full bg-[#098666] text-white'>
             Get Started
           </li>
         </ul>
