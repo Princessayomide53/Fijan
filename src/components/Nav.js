@@ -2,9 +2,20 @@ import React, { useState } from 'react';
 import Logo from '../Assets/Logo.png';
 import { Link, useLocation } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen, 'open');
+  };
+  const toggled = () => {
+    setIsOpen(false);
+  };
+
   const location = useLocation();
   return (
     <section
@@ -50,17 +61,49 @@ const Nav = () => {
             </button>
           </Link>
           <li className=''>
-            <Link to='/services'>
-              <button
-                className={
-                  location.pathname === '/service'
-                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
-                }
+            {/* <Link to=''> */}
+            <button
+              onMouseEnter={toggleDropdown}
+              // onMouseLeave={toggleDropdown}
+              className={`${
+                location.pathname.startsWith('/homeCare') ||
+                location.pathname.startsWith('/nursingCare') ||
+                location.pathname.startsWith('/MentalCare') ||
+                isOpen
+                  ? "xl:px-7 lg:px-5 gap-2 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'"
+                  : 'xl:px-7 lg:px-5 gap-2 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+              }`}
+            >
+              Services{' '}
+              <IoIosArrowDown className={`${isOpen ? 'mt-1' : 'mt-1'}`} />
+            </button>
+            {isOpen && (
+              <div
+                onMouseLeave={toggled}
+                className='absolute top-12 lg:left-[22.5rem] xl:left-[29.5rem] mac:left-[34rem] w-[190px] h-[108px] mt-2 bg-white shadow-lg rounded-md'
               >
-                Services
-              </button>
-            </Link>
+                <ul className='space-y-[10px] '>
+                  <Link to='/homeCare'>
+                    <li
+                      className={` pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    >
+                      Home care
+                    </li>
+                  </Link>
+                  <li
+                    className={` pl-5 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                  >
+                    <Link to='/nursingCare'>Nursing care</Link>
+                  </li>
+                  <li
+                    className={` pl-5 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                  >
+                    <Link to='/mentalCare'>Mental Health care</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
+            {/* </Link> */}
           </li>
           <li className=''>
             <Link to='/contact'>
@@ -114,8 +157,43 @@ const Nav = () => {
             <li className='text-[#014470] text-xl hover:text-[#098666]'>
               <Link to='/about'>About</Link>
             </li>
-            <li className='text-[#014470] text-xl hover:text-[#098666]'>
-              <Link to='/services'>Services</Link>
+            <li
+              onClick={toggleDropdown}
+              className='text-[#014470] relative flex justify-between text-xl hover:text-[#098666]'
+            >
+              Services
+              {isOpen ? (
+                <IoIosArrowUp className='md:text-2xl' />
+              ) : (
+                <IoIosArrowDown className='md:text-2xl' />
+              )}
+              {isOpen && (
+                <div className='absolute top-8 left-0 w-full bg-white shadow-lg rounded-md'>
+                  <ul className='space-y-[10px] '>
+                    <Link to='/homeCare'>
+                      <li
+                        className={`pl-5 pt-2 hover:bg-[#098666] hover:text-white`}
+                      >
+                        Home care
+                      </li>
+                    </Link>
+                    <Link to='/nursingCare'>
+                      <li
+                        className={`pl-5 hover:bg-[#098666] hover:text-white`}
+                      >
+                        Nursing care
+                      </li>
+                    </Link>
+                    <Link to='/mentalCare'>
+                      <li
+                        className={`pl-5 hover:bg-[#098666] hover:text-white`}
+                      >
+                        Mental Health care
+                      </li>
+                    </Link>
+                  </ul>
+                </div>
+              )}
             </li>
             <li className='text-[#014470] text-xl hover:text-[#098666]'>
               <Link to='/contact'>Contact Us</Link>

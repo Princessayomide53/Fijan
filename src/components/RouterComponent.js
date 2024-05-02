@@ -1,19 +1,21 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Abouts from "../Routers/About/Abouts";
-import Home from "./Home";
-import Contacts from "../Routers/Contact/Contacts";
-import Service from "../Routers/Services/Service";
-import Career from "../Routers/Careers/Career";
-import Layout from "./Layout";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Abouts from '../Routers/About/Abouts';
+import Home from './Home';
+import Contacts from '../Routers/Contact/Contacts';
+import Career from '../Routers/Careers/Career';
+import Layout from './Layout';
+import Homecare from '../Routers/HomeCare/Homecare';
+import Nurses from '../Routers/NursingCare/Nurses';
+import Mental from '../Routers/Mental Care/Mental';
 
 const RouterComponent = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route
-          path="/about"
+          path='/about'
           element={
             <Layout>
               <Abouts />
@@ -21,26 +23,43 @@ const RouterComponent = () => {
           }
         />
         <Route
-          path="/contact"
+          path='/contact'
           element={
             <Layout>
               <Contacts />
             </Layout>
           }
         />
+
         <Route
-          path="/services"
+          path='/careers'
           element={
             <Layout>
-              <Service />
+              <Career />
             </Layout>
           }
         />
         <Route
-          path="/careers"
+          path='/homeCare'
           element={
             <Layout>
-              <Career />
+              <Homecare />
+            </Layout>
+          }
+        />
+        <Route
+          path='/nursingCare'
+          element={
+            <Layout>
+              <Nurses />
+            </Layout>
+          }
+        />
+        <Route
+          path='/MentalCare'
+          element={
+            <Layout>
+              <Mental />
             </Layout>
           }
         />
