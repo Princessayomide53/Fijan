@@ -91,6 +91,17 @@ body {
     width: 25rem !important;
     height: 20rem !important;
   }
+  .slider-controler {
+    position: relative;
+    top: -7rem !important;
+    display: flex;
+    /* left: 0; */
+    /* align-items: center; */
+    justify-content: space-around;
+    z-index: 90;
+    cursor: pointer;
+    /* background-color: ; */
+  }
 }
 
 .swiper-slide .img {
@@ -157,18 +168,55 @@ body {
     /* background-color: ; */
   }
 }
-
-.swiper-button-next {
-  /* left: 58% !important; */
-  /* transform: translateX(-78%) !important; */
-  right: 8%;
-  position: absolute;
+@media (max-width: 767px) {
+  .swiper-button-next {
+    /* left: 58% !important; */
+    /* transform: translateX(-78%) !important; */
+    right: 2%;
+    position: absolute;
+  }
+  .swiper-button-prev {
+    /* left: 58% !important; */
+    /* transform: translateX(-78%) !important; */
+    left: 2%;
+    position: absolute;
+  }
+  .slider-controler .slider-arrow {
+    /* background: var(--white); */
+    background-color: white;
+    opacity: 80;
+  }
 }
-.swiper-button-prev {
-  /* left: 58% !important; */
-  /* transform: translateX(-78%) !important; */
-  left: 8%;
+/* .swiper-button-next { */
+/* left: 58% !important; */
+/* transform: translateX(-78%) !important; */
+/* right: 8%; */
+/* position: absolute; */
+/* } */
+/* .swiper-button-prev { */
+/* left: 58% !important; */
+/* transform: translateX(-78%) !important; */
+/* left: 8%;
   position: absolute;
+} */
+
+@media (min-width: 768px) and (max-width: 2560px) {
+  .swiper-button-next {
+    /* left: 58% !important; */
+    /* transform: translateX(-78%) !important; */
+    right: 8%;
+    position: absolute;
+  }
+  .swiper-button-prev {
+    /* left: 58% !important; */
+    /* transform: translateX(-78%) !important; */
+    left: 8%;
+    position: absolute;
+  }
+  .slider-controler .slider-arrow {
+    /* background: var(--white); */
+    background-color: white;
+  }
 }
 
 /* @media (max-width: 990px) {
@@ -201,7 +249,7 @@ body {
 
 .slider-controler .slider-arrow {
   /* background: var(--white); */
-  background-color: white;
+  /* background-color: white; */
   width: 3rem;
   height: 3rem;
   border-radius: 50%;

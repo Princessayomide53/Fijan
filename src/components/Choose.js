@@ -66,17 +66,21 @@ const Choose = () => {
         Why Settle for Less? Discover the <br /> Difference in Our Exquisite
         Care
       </h3>
-      <div className='flex py-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] justify-between overflow-x-auto'>
+      <div className='flex pt-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] justify-between overflow-x-auto'>
         {cards.map((card) => (
           <div
             key={card.id}
-            className='min-w-[19rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1.5rem] min-h-[10.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1.5rem] py-[1.5rem] lg:py-[2.2rem]'
+            className='min-w-[17rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1rem] lg:mx-[1.5rem] min-h-[8.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1.5rem] py-[1.5rem] lg:py-[2.2rem]'
           >
-            <img src={card.icon} alt='' />
+            <img
+              src={card.icon}
+              alt=''
+              className='w-[2.5rem] h-[2.5rem] lg:w-[4rem] lg:h-[4rem]'
+            />
             <h2 className='text-[#014470] special-font text-[1.45rem] lg:text-[1.7rem] font-normal leading-normal'>
               {card.title}
             </h2>{' '}
-            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.94rem] pt-[1rem]'>
+            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.87rem] lg:text-[0.94rem] pt-[1rem]'>
               {card.text}
             </p>
           </div>

@@ -10,10 +10,14 @@ const Nav = () => {
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen, 'open');
+    // console.log(isOpen, 'open');
   };
   const toggled = () => {
     setIsOpen(false);
+  };
+
+  const closeNav = () => {
+    setNav(false);
   };
 
   const location = useLocation();
@@ -150,11 +154,17 @@ const Nav = () => {
       </nav>{' '}
       {nav && (
         <div className='w-full fixed top-[5rem] left-0 h-screen z-20  bg-gradient-to-r from-[#ffffff] to-[#71C8E4]'>
-          <ul className='flex flex-col space-y-[2.5rem] mt-5 p-7'>
-            <li className='text-[#014470] text-xl hover:text-[#098666]'>
+          <ul className='flex flex-col space-y-[3rem] mt-5 p-7'>
+            <li
+              onClick={closeNav}
+              className='text-[#014470] text-xl hover:text-[#098666]'
+            >
               <Link to='/'>Home</Link>
             </li>
-            <li className='text-[#014470] text-xl hover:text-[#098666]'>
+            <li
+              onClick={closeNav}
+              className='text-[#014470] text-xl hover:text-[#098666]'
+            >
               <Link to='/about'>About</Link>
             </li>
             <li
@@ -168,37 +178,48 @@ const Nav = () => {
                 <IoIosArrowDown className='md:text-2xl' />
               )}
               {isOpen && (
-                <div className='absolute top-8 left-0 w-full bg-white shadow-lg rounded-md'>
-                  <ul className='space-y-[10px] '>
-                    <Link to='/homeCare'>
-                      <li
-                        className={`pl-5 pt-2 hover:bg-[#098666] hover:text-white`}
-                      >
+                <div className='absolute top-10 md:top-12 left-0 w-full h-[150px] bg-white shadow-lg rounded-md'>
+                  <ul className='space-y-[13px]'>
+                    <li
+                      className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    >
+                      <Link onClick={closeNav} to='/homeCare'>
+                        {' '}
                         Home care
-                      </li>
-                    </Link>
-                    <Link to='/nursingCare'>
-                      <li
-                        className={`pl-5 hover:bg-[#098666] hover:text-white`}
-                      >
+                      </Link>
+                    </li>
+
+                    <li
+                      className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    >
+                      <Link onClick={closeNav} to='/nursingCare'>
+                        {' '}
                         Nursing care
-                      </li>
-                    </Link>
-                    <Link to='/mentalCare'>
-                      <li
-                        className={`pl-5 hover:bg-[#098666] hover:text-white`}
-                      >
+                      </Link>
+                    </li>
+
+                    <li
+                      className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    >
+                      <Link onClick={closeNav} to='/mentalCare'>
+                        {' '}
                         Mental Health care
-                      </li>
-                    </Link>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               )}
             </li>
-            <li className='text-[#014470] text-xl hover:text-[#098666]'>
+            <li
+              onClick={closeNav}
+              className='text-[#014470] text-xl hover:text-[#098666]'
+            >
               <Link to='/contact'>Contact Us</Link>
             </li>
-            <li className='text-[#014470] text-xl hover:text-[#098666]'>
+            <li
+              onClick={closeNav}
+              className='text-[#014470] text-xl hover:text-[#098666]'
+            >
               <Link to='/careers'>Careers</Link>
             </li>
           </ul>
