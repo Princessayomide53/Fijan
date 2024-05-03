@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
 import Hero from './Hero';
-import Nurses from './Nurses';
-import Settle from '../../components/Settle';
+import Services from './Services';
+import Consultation from '../../components/Consultation';
 import Frequent from '../../components/Frequent';
-import HealthCare from './HealthCare';
 
-const Career = () => {
+const Nurses = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     return () => {};
@@ -13,12 +12,11 @@ const Career = () => {
   return (
     <div>
       <Hero />
-      <Nurses />
-      <HealthCare />
-      <Settle />
+      <Services />
+      <Consultation />
       <Frequent />
     </div>
   );
 };
 
-export default Career;
+export default Nurses;

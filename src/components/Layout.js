@@ -1,14 +1,14 @@
 // Layout.js
-import React from "react";
-import Nav from "./Nav";
-// import Footer from "./Footer";
+import React from 'react';
+import Nav from './Nav';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Nav />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
