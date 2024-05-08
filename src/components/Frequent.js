@@ -30,13 +30,13 @@ const Frequent = () => {
   return (
     <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[21rem] mx-auto md:h-[22rem] lg:h-[28rem]'>
       <div className='pt-[1rem]'>
-        <h6 className='text-center text-xs md:text-base text-[#098666] lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
+        <h6 className='text-center text-lg md:text-base text-[#098666] lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
           FREQUENTLY ASKED QUESTIONS
         </h6>
-        <h1 className='text-center text-4xl leading-[1.4rem] special-font md:text-[2.8rem] lg:leading-[3.85rem] font-normal lg:text-[3.5rem] xl:text-6xl mac:text-7xl text-[#014470] '>
+        <h1 className='text-center text-[45px] leading-[40px] md:leading-[1.4rem] special-font md:text-[2.8rem] lg:leading-[3.85rem] font-normal lg:text-[3.5rem] xl:text-6xl mac:text-7xl text-[#014470] '>
           Whats on your mind
         </h1>
-        <div className='flex flex-col py-[2rem] md:flex-row md:justify-around lg:justify-between xl:justify-around md:py-[4rem] mac:py-[5rem]'>
+        <div className='flex flex-col py-[70px] md:flex-row md:justify-around lg:justify-between xl:justify-around md:py-[4rem] mac:py-[5rem]'>
           <div>
             {questions.map((question, index) => (
               <div
@@ -60,7 +60,7 @@ const Frequent = () => {
                 >
                   {question.quest}
                 </p>
-                <IoIosArrowDown className='mt-5 text-xl' />
+                <IoIosArrowDown className='mt-5 text-xl text-[#098666] md:text-black' />
               </div>
             ))}
           </div>
@@ -87,7 +87,7 @@ const Frequent = () => {
                 >
                   {ask.quest}
                 </p>
-                <IoIosArrowDown className='mt-5 text-xl' />
+                <IoIosArrowDown className='mt-5 text-xl text-[#098666] md:text-black' />
               </div>
             ))}
           </div>

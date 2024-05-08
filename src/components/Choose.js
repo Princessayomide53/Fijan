@@ -58,19 +58,19 @@ const Choose = () => {
     },
   ];
   return (
-    <section className='mac:max-w-[78rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3rem] lg:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]'>
-      <h6 className='text-[#098666] text-xs md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center'>
+    <section className='mac:max-w-[78rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3.5rem] md:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]'>
+      <h6 className='text-[#098666] text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center'>
         WHY CHOOSE US
       </h6>
-      <h3 className='text-[#014470] text-3xl leading-tight md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]'>
-        Why Settle for Less? Discover the <br /> Difference in Our Exquisite
-        Care
+      <h3 className='text-[#014470] text-[45px] leading-[40px] md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]'>
+        Why Settle for Less? Discover the <br className='hidden md:block' />{' '}
+        Difference in Our Exquisite Care
       </h3>
-      <div className='flex pt-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] justify-between overflow-x-auto'>
+      <div className='flex pt-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] mac:py-[3rem] justify-between overflow-x-auto'>
         {cards.map((card) => (
           <div
             key={card.id}
-            className='min-w-[17rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1rem] lg:mx-[1.5rem] min-h-[8.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1.5rem] py-[1.5rem] lg:py-[2.2rem]'
+            className='min-w-[17rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1rem] lg:mx-[1.5rem] min-h-[8.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1rem] py-[0.95rem] md:px-[1.5rem] md:py-[1.5rem] lg:py-[2.2rem]'
           >
             <img
               src={card.icon}
@@ -80,7 +80,7 @@ const Choose = () => {
             <h2 className='text-[#014470] special-font text-[1.45rem] lg:text-[1.7rem] font-normal leading-normal'>
               {card.title}
             </h2>{' '}
-            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.87rem] lg:text-[0.94rem] pt-[1rem]'>
+            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.86rem] lg:text-[0.94rem] pt-[1rem]'>
               {card.text}
             </p>
           </div>

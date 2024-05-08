@@ -1,3 +1,9 @@
+:root {
+  --swiper-navigation-size: 20px !important;
+  font-weight: 600;
+  --swiper-theme-color: #014470 !important;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -70,7 +76,7 @@ body {
 
 @media (min-width: 1440px) {
   .swiper_container {
-    height: 33rem !important;
+    height: 30rem !important;
     /* width: 100%; */
   }
   .swiper-slide {
@@ -79,30 +85,30 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-  .swiper_container {
+/* @media (max-width: 500px) { */
+/* .swiper_container {
     height: 20rem !important;
-  }
-  .swiper-slide {
-    width: 25rem !important;
-    height: 20rem !important;
-  }
-  .swiper-slide .img {
-    width: 25rem !important;
-    height: 20rem !important;
-  }
-  .slider-controler {
+  } */
+/* .swiper-slide {
+    width: 20rem !important;
+    height: 27rem !important;
+  } */
+/* .swiper-slide .img {
+    width: 20rem !important;
+    height: 25rem !important;
+  } */
+/* .slider-controler {
     position: relative;
     top: -7rem !important;
-    display: flex;
-    /* left: 0; */
-    /* align-items: center; */
-    justify-content: space-around;
+    display: flex; */
+/* left: 0; */
+/* align-items: center; */
+/* justify-content: space-around;
     z-index: 90;
-    cursor: pointer;
-    /* background-color: ; */
-  }
-}
+    cursor: pointer; */
+/* background-color: ; */
+/* }
+} */
 
 .swiper-slide .img {
   width: 25rem !important;
@@ -144,7 +150,7 @@ body {
 @media (min-width: 1024px) and (max-width: 2560px) {
   .slider-controler {
     position: relative;
-    top: -20rem !important;
+    top: -18rem !important;
     display: flex;
     /* left: 0; */
     /* align-items: center; */
@@ -173,20 +179,20 @@ body {
   .swiper-button-next {
     /* left: 58% !important; */
     /* transform: translateX(-78%) !important; */
-    right: 1%;
+    right: 5px !important;
     position: absolute;
   }
   .swiper-button-prev {
     /* left: 58% !important; */
     /* transform: translateX(-78%) !important; */
-    left: 2%;
+    left: 5px !important;
     position: absolute;
   }
-  .slider-controler .slider-arrow {
-    /* background: var(--white); */
-    background-color: white;
-    opacity: 80;
-  }
+  /* .slider-controler .slider-arrow {/ */
+  /* background: var(--white); */
+  /* background-color: white; */
+  /* opacity: 80; */
+  /* } */
 }
 
 /* .swiper-button-next { */

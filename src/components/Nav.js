@@ -3,6 +3,7 @@ import Logo from '../Assets/Logo.png';
 import { Link, useLocation } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { HashLink as HashRouterLink } from 'react-router-hash-link';
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -138,7 +139,10 @@ const Nav = () => {
         </ul>
         <ul className='mt-2 hidden lg:flex'>
           <li className=' lg:px-5 xl:px-7 py-1 flex justify-center items-center rounded-full bg-[#098666] text-white'>
-            Get Started
+            <HashRouterLink smooth to='#section1'>
+              {' '}
+              Get Started{' '}
+            </HashRouterLink>
           </li>
         </ul>
         <div className='lg:hidden block '>

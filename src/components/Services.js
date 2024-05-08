@@ -27,12 +27,12 @@ const Services = () => {
     },
   ];
   return (
-    <section className='w-full mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] pt-[3rem] mx-auto md:pt-[4rem] xl:pt-[5rem] mac:pt-[6rem]'>
-      <h5 className='text-[#098666] uppercase text-xs text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
+    <section className='w-full mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] lg:max-w-[60rem] pt-[3.5rem] mx-auto md:pt-[4rem] xl:pt-[5rem] mac:pt-[6rem]'>
+      <h5 className='text-[#098666] uppercase text-lg text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
         Our services
       </h5>
 
-      <h2 className='special-font text-[#014470] text-3xl text-center md:text-[3rem] lg:text-[4.5rem] font-normal md:leading-tight md:-mt-2 lg:leading-[4.5rem]'>
+      <h2 className='special-font text-[#014470] text-[48px] leading-[40px] text-center md:text-[3rem] lg:text-[4.5rem] font-normal md:leading-tight md:-mt-2 lg:leading-[4.5rem]'>
         What we do
       </h2>
       <div className='flex flex-col justify-center items-center gap-7 md:gap-0 md:flex-row md:justify-between pt-[2rem] md:pt-[2.5rem] lg:pt-[4rem]'>

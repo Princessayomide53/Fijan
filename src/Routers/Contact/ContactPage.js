@@ -3,7 +3,7 @@ import React from 'react';
 const ContactPage = () => {
   return (
     <section className='mac:pt-[25rem] md:pt-[12rem] pt-[7rem] lg:pt-[16rem] xl:pt-[20rem] pb-[5rem] md:pb-[7.8rem] max-w-[20rem] md:max-w-[38rem] lg:max-w-[48rem] xl:max-w-[55rem] mac:max-w-[65rem] mx-auto'>
-      <h5 className='special-font text-[#014470] text-[1.5rem] md:text-[3rem] lg:text-[3.5rem] font-normal leading-normal pb-[1rem] md:pb-[2rem]'>
+      <h5 className='special-font text-[#014470] text-[26px] md:text-[3rem] lg:text-[3.5rem] font-normal leading-normal pb-[1rem] md:pb-[2rem]'>
         Contact us today and feel good again
       </h5>
       <div className=''>
