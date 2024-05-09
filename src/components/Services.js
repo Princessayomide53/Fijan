@@ -4,26 +4,30 @@ import Mask1 from '../Assets/Mask1.png';
 import Mask2 from '../Assets/Mask2.png';
 import Mask3 from '../Assets/Mask3.png';
 import { IoArrowForward } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const services = [
     {
       id: 1,
       img: Mask1,
-      title: 'home care',
+      title: 'NURSES',
       text: 'Learn more',
+      Link: '/homeCare',
     },
     {
       id: 2,
       img: Mask2,
-      title: 'NURSING CARE',
+      title: 'MEDICAL DOCTORS',
       text: 'Learn more',
+      Link: '/nursingCare',
     },
     {
       id: 3,
       img: Mask3,
-      title: 'mental health care',
+      title: 'CARE SUPPORT WORKER',
       text: 'Learn more',
+      Link: '/mentalCare',
     },
   ];
   return (
@@ -32,9 +36,16 @@ const Services = () => {
         Our services
       </h5>
 
-      <h2 className='special-font text-[#014470] text-[48px] leading-[40px] text-center md:text-[3rem] lg:text-[4.5rem] font-normal md:leading-tight md:-mt-2 lg:leading-[4.5rem]'>
+      <h2 className='special-font text-[#014470] text-[48px] leading-[40px] text-center md:text-[3rem] lg:text-[4.5rem] font-normal md:leading-tight md:-mt-2 lg:leading-[4rem]'>
         What we do
       </h2>
+      <p className='text-center text-sm md:text-[20px]  md:px-0 text-[#014470] pt-[33px] font-normal'>
+        Your Trusted Partner in Healthcare Recruitment. As a specialised
+        healthcare recruitment agency, We are commited
+        <br className='hidden md:block' /> to provide exceptional staffing
+        solutions to leading care agencies and hospitals across the United
+        Kingdom.
+      </p>
       <div className='flex flex-col justify-center items-center gap-7 md:gap-0 md:flex-row md:justify-between pt-[2rem] md:pt-[2.5rem] lg:pt-[4rem]'>
         {services.map((item, index) => (
           <div className='relative z-10' key={index}>
@@ -47,10 +58,14 @@ const Services = () => {
               <h3 className='text-white uppercase xl:text-[18px] mac:text-[22px] mt-[15rem] md:text-sm lg:text-base font-semibold leading-normal px-7 md:mt-[12rem] lg:mt-[15rem] mac:mt-[23rem] xl:mt-[20.1rem]'>
                 {item.title}
               </h3>
-              <button className='bg-white flex gap-2 mt-[2.05rem] mr-[19.8px] text-[#014470] text-base md:mt-[0.85rem] md:mr-[5.15px] font-normal py-2 xl:mr-[11px] lg:mr-[7px] px-[1.2rem] mac:mr-[12px] rounded-tl-lg rounded-br-[23px] md:rounded-br-[23px] lg:rounded-br-[29px] xl:rounded-br-[32px] mac:rounded-br-[50px] lg:mt-[1.45rem] xl:mt-[2.5rem] mac:mt-[2rem]'>
-                {item.text}
-                <IoArrowForward className='text-[#014470] text-[18px] z-10 mt-1' />
-              </button>
+
+              <Link to={item.Link}>
+                {' '}
+                <button className='bg-white flex gap-2 mt-[2.05rem] mr-[19.8px] text-[#014470] text-base md:mt-[0.85rem] md:mr-[5.15px] font-normal py-2 xl:mr-[11px] lg:mr-[7px] px-[1.2rem] mac:mr-[12px] rounded-tl-lg rounded-br-[23px] md:rounded-br-[23px] lg:rounded-br-[29px] xl:rounded-br-[32px] mac:rounded-br-[50px] lg:mt-[1.45rem] xl:mt-[2.5rem] mac:mt-[2rem]'>
+                  {item.text}
+                  <IoArrowForward className='text-[#014470] text-[18px] z-10 mt-1' />
+                </button>{' '}
+              </Link>
             </div>
             {/* <div className="bg-gradient-to-r from-gray-600 to-black bg-opacity-90 w-[24rem] h-[15rem]"></div> */}
           </div>

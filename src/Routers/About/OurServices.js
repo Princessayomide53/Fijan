@@ -11,26 +11,28 @@ const OurServices = () => {
         OUR SERVICES
       </h5>
       <h3 className='special-font text-[#014470] text-3xl md:text-[3rem] lg:text-[3rem] xl:text-[4.5rem] font-normal md:leading-[3rem] lg:leading-[4.4rem]'>
-        Our Exquisite Journey
+        Who we are
       </h3>
       <div className='flex flex-col md:flex-row gap-[3rem] md:gap-[5rem] py-[2rem]'>
         <p className='text-[#26465B] flex-wrap text-sm lg:text-[1.1rem] text-justify font-normal whitespace-pre-wrap leading-[1.75rem]'>
-          Lorem ipsum dolor sit amet consectetur. Viverra ultricies risus semper
-          cum nunc mattis sed curabitur. Sem nisl at vulputate velit accumsan
-          iaculis. Consequat netus in et tincidunt. Tellus commodo tristique
-          maecenas quis nisl. laoreet in ultrices dolor condimentum enim massa
-          odio. Tristique duis fermentum magnis tristique etiam euismod lacinia.
-          Ornare velit vulputate volutpat fames consectetur massa venenatis arcu
-          orci. Pretium vitae.
+          Fijan healthcare is a pioneering healthcare recruitment agency
+          committed to revolutionising the healthcare staffing landscape and
+          addressing the care sector’s pressing challenges. With an unparalleled
+          amalgamation of over four decades of experience in recruitment and
+          care, we have cemented an unmatched reputation within the healthcare
+          recruitment domain.Situated in the UK, our head office serves as the
+          nerve centre for devising cutting-edge healthcare recruitment
+          strategies and executing impactful campaigns that span the nation.
         </p>
         <p className='text-[#26465B] flex-wrap text-justify text-sm lg:text-[1.1rem] md:px-5 whitespace-pre-wrap font-normal leading-[1.75rem]'>
-          Lorem ipsum dolor sit amet consectetur. Viverra ultricies risus semper
-          cum nunc mattis sed curabitur. Sem nisl at vulputate velit accumsan
-          iaculis. Consequat netus in et tincidunt. Tellus commodo tristique
-          maecenas quis nisl. laoreet in ultrices dolor condimentum enim massa
-          odio. Tristique duis fermentum magnis tristique etiam euismod lacinia.
-          Ornare velit vulputate volutpat fames consectetur massa venenatis arcu
-          orci. Pretium vitae.
+          Our adept team of Recruitment Advisors endeavours to identify and
+          connect the most adept and dedicated nurses and care professionals
+          with the specific requirements and aspirations of each esteemed care
+          provider.We recognise the singular nature of care work – a vocation
+          that embodies profound responsibilities and trust. This understanding
+          propels us to ensure that our recruitment processes transcend mere
+          efficiency and accuracy; they are infused with meticulousness and
+          depth
         </p>
       </div>
       <div className='flex flex-col gap-8 md:flex-row flex-wrap md:justify-around xl:flex-nowrap lg:justify-between mac:justify-around items-center object-contain md:pt-[1.5rem] lg:pt-[3rem] mb-[7rem]'>

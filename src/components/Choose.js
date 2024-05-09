@@ -63,8 +63,8 @@ const Choose = () => {
         WHY CHOOSE US
       </h6>
       <h3 className='text-[#014470] text-[45px] leading-[40px] md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]'>
-        Why Settle for Less? Discover the <br className='hidden md:block' />{' '}
-        Difference in Our Exquisite Care
+        Empowering you to reach your <br className='hidden md:block' />
+        potential
       </h3>
       <div className='flex pt-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] mac:py-[3rem] justify-between overflow-x-auto'>
         {cards.map((card) => (

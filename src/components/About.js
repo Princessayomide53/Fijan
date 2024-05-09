@@ -10,20 +10,19 @@ const About = () => {
           ABOUT US
         </h5>
         <h2 className='special-font text-[#014470] text-[48px] text-center md:text-left leading-[40px] md:text-3xl lg:text-5xl mac:text-7xl xl:text-6xl font-normal md:leading-normal lg:leading-[3.8rem]'>
-          Your health means the <br className='hidden md:block' />
-          world to us
+          Specialist in
+          <br className='hidden md:block' /> healthcare placement
         </h2>
         <p className='text-[#26465B]  text-base md:text-sm xl:text-[1.25rem] lg:leading-normal pt-[2rem] md:pt-[2rem] lg:text-sm mac:text-[1.38rem] font-normal mac:leading-[1.8rem]'>
-          Helping you and your loved one live a healthy,
-          <br className='hidden md:block' /> happy and independent life is what
-          keeks us on
-          <br className='hidden md:block' /> our toes everyday.
-          <br />
-          <br /> We have a team of trusted and dedicated{' '}
+          At Fijan healthcare, we cater to a diverse range of
           <br className='hidden md:block' />
-          professionals who prioritise your health to give a
+          staffing needs within learning disabilities, mental{' '}
           <br className='hidden md:block' />
-          quality life.
+          health, and specialist dementia environments.
+          <br /> <br />
+          Below, you will find the types of skilled professionals we{' '}
+          <br className='hidden md:block' />
+          typically place with our esteemed clients
         </p>
       </div>
       <div>

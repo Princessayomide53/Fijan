@@ -73,7 +73,7 @@ const Nav = () => {
               className={`${
                 location.pathname.startsWith('/homeCare') ||
                 location.pathname.startsWith('/nursingCare') ||
-                location.pathname.startsWith('/MentalCare') ||
+                location.pathname.startsWith('/mentalCare') ||
                 isOpen
                   ? "xl:px-7 lg:px-5 gap-2 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'"
                   : 'xl:px-7 lg:px-5 gap-2 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
@@ -90,20 +90,20 @@ const Nav = () => {
                 <ul className='space-y-[10px] '>
                   <Link to='/homeCare'>
                     <li
-                      className={` pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                      className={` pl-5 pt-2 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                     >
-                      Home care
+                      Nurses
                     </li>
                   </Link>
                   <li
-                    className={` pl-5 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    className={` pl-5 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                   >
-                    <Link to='/nursingCare'>Nursing care</Link>
+                    <Link to='/nursingCare'>Medical doctors</Link>
                   </li>
                   <li
-                    className={` pl-5 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
+                    className={` pl-5 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                   >
-                    <Link to='/mentalCare'>Mental Health care</Link>
+                    <Link to='/mentalCare'>Care support worker</Link>
                   </li>
                 </ul>
               </div>
