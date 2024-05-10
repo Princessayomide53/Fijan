@@ -7,7 +7,7 @@ const Jobs = () => {
   const jobs = [
     {
       id: 1,
-      title: 'HEALTHCARE ASSISTANT',
+      title: 'RMN',
       title2: 'RMN',
       pay: '$10.42',
       text: 'Sutton Coldfield',
@@ -17,7 +17,7 @@ const Jobs = () => {
     },
     {
       id: 2,
-      title: 'HEALTHCARE ASSISTANT',
+      title: 'RMN',
       title2: 'RMN',
       pay: '$10.42',
       text: 'Sutton Coldfield',
@@ -27,7 +27,7 @@ const Jobs = () => {
     },
     {
       id: 3,
-      title: 'HEALTHCARE ASSISTANT',
+      title: 'RMN',
       title2: 'RMN',
       pay: '$10.42',
       text: 'Sutton Coldfield',
@@ -37,8 +37,8 @@ const Jobs = () => {
     },
   ];
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3.5rem] md:pt-[4rem] lg:pt-[3rem] xl:pt-[3rem] mac:pt-[4rem]'>
-      <h6 className='text-center text-lg md:text-base text-[#098666] lg:text-[1.25rem] xl:text-[1.4rem] font-semibold leading-[1.25rem] '>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.5rem] md:py-[4rem] lg:py-0 lg:pt-[3rem] lg:pb-[4rem] xl:pb-[0rem] xl:pt-[3rem] mac:pt-[4rem]'>
+      <h6 className='text-center text-lg text-[#098666] lg:text-[1.25rem] xl:text-[1.4rem] font-semibold leading-[1.25rem] '>
         HOT JOBS
       </h6>
 
@@ -49,31 +49,31 @@ const Jobs = () => {
         {jobs.map((job) => (
           <div
             key={job.id}
-            className='md:w-[12.8375rem] w-[319px] h-[342px] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1.5rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[22.375rem] bg-[#0171BB] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]'
+            className='md:w-[12.8375rem] w-[300px] iphone:w-[319px] h-[342px] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1.5rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[22.375rem] bg-[#0171BB] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]'
           >
-            <h4 className='text-[#fff] hidden md:block lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[12px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]'>
+            <h4 className='text-[#fff] hidden md:block lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[14px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]'>
               {job.title}
             </h4>{' '}
             <h4 className='text-[#fff] block pb-[1.5rem] md:hidden lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[12px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]'>
               {job.title2}
             </h4>
-            <p className='text-white pb-[0.8rem] text-[16px] lg:text-base font-light leading-[1.25rem]'>
+            <p className='text-white pb-[0.8rem] text-[16px] md:text-sm lg:text-base font-light leading-[1.25rem]'>
               {job.pay}
             </p>{' '}
-            <p className='text-white text-[16px] pb-[0.9rem] lg:text-base md:pb-[0.9rem] lg:pb-[1.2rem] font-light leading-[20px] md:leading-[1.25rem] border-b-[1px] border-[#fff]'>
+            <p className='text-white text-[16px] pb-[0.9rem] md:text-sm lg:text-base md:pb-[0.7rem] lg:pb-[1.2rem] font-light leading-[20px] md:leading-[1.25rem] border-b-[1px] border-[#fff]'>
               {job.text}
             </p>
-            <p className='text-white py-[0.9rem] lg:py-[1.2rem] text-[16px] leading-[22.4px] text-justify lg:text-base font-light md:leading-[1.35rem]'>
+            <p className='text-white py-[0.9rem] lg:py-[1.2rem] text-[16px] leading-[22.4px] text-justify md:text-xs xl:text-base font-light md:leading-[1.35rem]'>
               {job.description}
             </p>
-            <p className='text-white lg:pt-[0.8rem] pt-[0.5rem] xl:pt-[1rem] underline text-[16px] lg:text-sm xl:text-base font-light leading-[1.35rem]'>
+            <p className='text-white lg:pt-[0.8rem] pt-[0.5rem] xl:pt-[1rem] underline text-[16px] md:text-sm xl:text-base font-light leading-[1.35rem]'>
               {job.details}
             </p>
           </div>
         ))}
       </div>
       <div className='flex justify-center'>
-        <button className='bg-[#098666] mb-[15px] md:my-[2rem] lg:my-[1rem] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-5 md:py-3 rounded-full'>
+        <button className='bg-[#098666] mb-[15px] md:my-[2rem] lg:my-[3rem] xl:my-[0rem] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-5 md:py-3 rounded-full'>
           <Link to='/careers'> Explore Careers</Link>
           <IoArrowForward className='text-white text-[18px]' />
         </button>

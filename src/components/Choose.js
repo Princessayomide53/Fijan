@@ -12,53 +12,53 @@ const Choose = () => {
       id: 1,
       title: 'Skilled medical professionals',
       icon: icon1,
-      text: 'Our team consist if highly qualified and experienced doctor, nurses and support staff who bring wealth of knowledge and expertise to our patients’ care. The diverse specialization ensure comprehensive treatment across various medical fields',
+      text: 'Our team consists of seasoned healthcare recruiters with extensive knowledge in the  field',
     },
     {
       id: 2,
       title: 'Modern facilities',
-      icon: icon2,
-      text: 'We invest in the state-of-art medical equipment and technology to deliver accurate and diagnoses and effective treatment. Our facilities ensure optimal comfort and efficiency during consultations and procedures',
+      icon: icon1,
+      text: 'Our innovative approach to care worker placement ensures the perfect fit between candidates and employers.',
     },
     {
       id: 3,
       title: 'Flexible Appointments',
-      icon: icon3,
-      text: 'We understand that life can be busy so we offer flexible appointment schedules to accomodate our patients’ needs. With multiple locations across the UK, accessing quality healthcare has never been more convienient.',
+      icon: icon1,
+      text: 'We provide round-the-clock assistance, ensuring your needs are promptly addressed and your expectations are exceeded.',
     },
     {
       id: 4,
       title: 'Wide range of services',
-      icon: icon4,
-      text: 'With an extensive array of medical services available at our facilities, patients can access the care they need without having to visit multiple providers. This convienience saves time and ensures seamless coordination between different aspect of a patient’s care.',
+      icon: icon1,
+      text: 'We adapt to your specific requirements, providing tailored solutions that meet your staffing needs effectively.',
     },
     {
       id: 5,
       title: 'Wide range of services',
-      icon: icon4,
-      text: 'With an extensive array of medical services available at our facilities, patients can access the care they need without having to visit multiple providers. This convienience saves time and ensures seamless coordination between different aspect of a patient’s care.',
+      icon: icon1,
+      text: 'We maintain exceptional awareness of the candidate market, ensuring we identify and engage with the most promising talent.',
     },
     {
       id: 6,
       title: 'Wide range of services',
-      icon: icon4,
-      text: 'With an extensive array of medical services available at our facilities, patients can access the care they need without having to visit multiple providers. This convienience saves time and ensures seamless coordination between different aspect of a patient’s care.',
+      icon: icon1,
+      text: 'With over 4 years of combined recruitment experience, we deeply understand the industry.',
     },
     {
       id: 7,
       title: 'Wide range of services',
-      icon: icon4,
-      text: 'With an extensive array of medical services available at our facilities, patients can access the care they need without having to visit multiple providers. This convienience saves time and ensures seamless coordination between different aspect of a patient’s care.',
+      icon: icon1,
+      text: 'Our extensive network grants us unparalleled access to a diverse pool of skilled healthcare professionals.',
     },
     {
       id: 8,
       title: 'Wide range of services',
-      icon: icon4,
-      text: 'With an extensive array of medical services available at our facilities, patients can access the care they need without having to visit multiple providers. This convienience saves time and ensures seamless coordination between different aspect of a patient’s care.',
+      icon: icon1,
+      text: 'We conduct thorough screening processes to ensure that only the most qualified and dedicated individuals join your team.',
     },
   ];
   return (
-    <section className='mac:max-w-[78rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3.5rem] md:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]'>
+    <section className='mac:max-w-[78rem] md:max-w-[45rem] lg:max-w-[52rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.5rem] md:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]'>
       <h6 className='text-[#098666] text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center'>
         WHY CHOOSE US
       </h6>
@@ -66,21 +66,40 @@ const Choose = () => {
         Empowering you to reach your <br className='hidden md:block' />
         potential
       </h3>
+
+      <p className='text-center text-sm px-1 md:px-10 lg:px-0 pt-[30px] lg:pt-[48px] text-[#26465B] md:text-[13px] lg:text-sm xl:text-[20px] leading-[20px] lg:leading-[30px] font-normal'>
+        Year after year, we empower thousands of aspiring healthcare
+        professionals, nurturing their potential and kick-starting{' '}
+        <br className='hidden lg:block' />
+        their careers nationwide. We assist numerous nurses and management
+        professionals in discovering exciting job
+        <br className='hidden lg:block' /> opportunities that align with their
+        ambitions. By offering unwavering support and fostering growth, we
+        remain
+        <br className='hidden lg:block' /> dedicated to advancing the careers of
+        those who choose to devote themselves to the care sector.
+        <br className='block' /> <br className='block' /> We understand the
+        immeasurable value of top-tier care staff. That’s why we go above and
+        beyond to identify and <br className='hidden lg:block' />
+        connect the most outstanding candidates with the right jobs. As a
+        leading healthcare recruitment agency, here are the
+        <br className='hidden lg:block' /> reasons why we stand out:
+      </p>
       <div className='flex pt-[2.5rem] md:pt-[4rem] card md:py-0 lg:py-[3rem] xl:py-[4rem] mac:py-[3rem] justify-between overflow-x-auto'>
         {cards.map((card) => (
           <div
             key={card.id}
-            className='min-w-[17rem]  lg:flex-shrink-0 lg:max-w-[19.94rem] mx-[1rem] lg:mx-[1.5rem] min-h-[8.25rem] lg:max-h-[23.25rem] bg-[#E1F8FF] px-[1rem] py-[0.95rem] md:px-[1.5rem] md:py-[1.5rem] lg:py-[2.2rem]'
+            className='min-w-[17rem]  lg:flex-shrink-0 lg:max-w-[294px] mx-[1rem] lg:mx-[1.5rem] min-h-[7.25rem] lg:max-h-[304px] bg-[#E1F8FF] px-[1rem] lg:px-[1.5rem] py-[0.95rem] md:px-[1.5rem] md:py-[1.5rem] lg:py-[2.12rem]'
           >
             <img
               src={card.icon}
               alt=''
-              className='w-[2.5rem] h-[2.5rem] lg:w-[4rem] lg:h-[4rem]'
+              className='w-[2.5rem] h-[2.5rem] lg:w-[5rem] lg:h-[5rem]'
             />
-            <h2 className='text-[#014470] special-font text-[1.45rem] lg:text-[1.7rem] font-normal leading-normal'>
+            {/* <h2 className='text-[#014470] special-font text-[1.45rem] lg:text-[1.7rem] font-normal leading-normal'>
               {card.title}
-            </h2>{' '}
-            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.86rem] lg:text-[0.94rem] pt-[1rem]'>
+            </h2>{' '} */}
+            <p className='text-[#26465B] font-normal leading-[1.4rem] text-[0.86rem] lg:text-base pt-[1.2rem] md:pt-[1.5rem]'>
               {card.text}
             </p>
           </div>

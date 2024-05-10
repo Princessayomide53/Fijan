@@ -33,7 +33,7 @@ const Footer = () => {
               <input
                 type='text'
                 placeholder='Start your health journey'
-                className='md:w-[320px] w-[290px] lg:w-[420px] placeholder:text-[11px] h-[42px] focus:outline-blue-400 bg-[#F5FDFF] placeholder:text-[#90C2E4] rounded-full pl-4 md:pl-7'
+                className='md:w-[320px] w-[270px] iphone:w-[290px] lg:w-[420px] placeholder:text-[11px] h-[42px] focus:outline-blue-400 bg-[#F5FDFF] placeholder:text-[#90C2E4] rounded-full pl-4 md:pl-7'
               />
               <button className='bg-[#098666]  absolute top-0 -right-10 md:-right-5  text-white px-[32px] py-[10px] rounded-full'>
                 Get Started
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </article>
       <article className='md:border-b-2 border-[#005773]'>
-        <div className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pb-[3rem] md:pb-[5rem] lg:pb-[7rem] pt-[2.5rem]'>
+        <div className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20rem] iphone:max-w-[22rem] mx-auto pb-[3rem] md:pb-[5rem] lg:pb-[7rem] pt-[2.5rem]'>
           <div className='grid grid-cols-1 gap-12 md:gap-0 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-14 md:justify-center lg:justify-items-center'>
             <div className='text-white hidden md:flex flex-col font-semibold leading-normal text-[10px]  md:text-[13px] lg:text-[15px] mac:text-lg'>
               <h2>About us</h2>

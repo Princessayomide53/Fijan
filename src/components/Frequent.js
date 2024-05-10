@@ -28,7 +28,7 @@ const Frequent = () => {
     },
   ];
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[21rem] mx-auto md:h-[22rem] lg:h-[28rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[21rem] mx-auto md:h-[22rem] lg:h-[28rem]'>
       <div className='pt-[1rem]'>
         <h6 className='text-center text-lg md:text-base text-[#098666] lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
           FREQUENTLY ASKED QUESTIONS

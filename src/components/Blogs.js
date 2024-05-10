@@ -20,7 +20,7 @@ const Blogs = () => {
     { id: 3, img: Blog2 },
   ];
   return (
-    <section className='mac:max-w-[83rem] max-w-[22rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] md:pt-[1rem] mx-auto pb-[3.5rem] md:pb-[0rem] xl:pb-[0rem] mac:pb-[5rem]'>
+    <section className='mac:max-w-[83rem] max-w-[20.5rem] iphone:max-w-[22rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] md:pt-[3rem] mx-auto pb-[3.5rem] md:pb-[0rem] lg:pb-[2rem] xl:pb-[0rem] mac:pb-[4rem]'>
       <div className='hidden md:block'>
         <h5 className='text-center text-[#098666] text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] '>
           NAVIGATING HEALTHCARE INSIGHTS
@@ -63,15 +63,43 @@ const Blogs = () => {
         >
           <SwiperSlide className=''>
             <img src={Blog1} alt='' className='img' />
+            <div className='absolute md:top-[12rem] lg:top-[16rem] lg:left-[2rem] md:left-[3rem] xl:left-[3rem] mac:left-0 mac:w-[30rem]  flex justify-center items-center'>
+              <h2 className='lg:text-[24px] mac:text-[30px] font-medium  leading-normal text-center text-white'>
+                Mental Healthcare In The UK: <br />
+                Addressing The Rising <br />
+                Concern in 10 Unique Ways
+              </h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className=''>
             <img src={Blog2} alt='' className='img' />
+            <div className='absolute md:top-[12rem] lg:top-[16rem] lg:left-[2rem] md:left-[3rem] xl:left-[3rem] mac:left-0 mac:w-[30rem]  flex justify-center items-center'>
+              <h2 className='lg:text-[24px] mac:text-[30px] font-medium leading-normal text-center text-white'>
+                Mental Healthcare In The UK: <br />
+                Addressing The Rising <br />
+                Concern in 10 Unique Ways
+              </h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className=''>
             <img src={Blog3} alt='' className='img' />
+            <div className='absolute md:top-[12rem] lg:top-[16rem] mac:w-[30rem] lg:left-[2rem] md:left-[3rem] xl:left-[3rem] mac:left-0  flex justify-center items-center'>
+              <h2 className='lg:text-[24px] mac:text-[30px] font-medium  leading-normal text-center text-white'>
+                Mental Healthcare In The UK: <br />
+                Addressing The Rising <br />
+                Concern in 10 Unique Ways
+              </h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className=''>
             <img src={Blog2} alt='' className='img' />
+            <div className='absolute md:top-[12rem] lg:top-[16rem] mac:w-[30rem] lg:left-[2rem] md:left-[3rem] xl:left-[3rem] mac:left-0 flex justify-center items-center'>
+              <h2 className='lg:text-[24px] mac:text-[30px] font-medium leading-normal text-center text-white'>
+                Mental Healthcare In The UK: <br />
+                Addressing The Rising <br />
+                Concern in 10 Unique Ways
+              </h2>
+            </div>
           </SwiperSlide>
         </Swiper>
         <div className='slider-controler'>
@@ -85,7 +113,7 @@ const Blogs = () => {
         </div>
 
         {/* <span className='flex justify-center items-center lg:pt-[4rem] xl:pt-[5rem] mac:pt-[6rem]'>
-        <div className='xl:w-[60.25rem] lg:w-[50.25rem] mac:w-[70.25rem] lg:h-[28.5rem] xl:h-[32rem] rounded-[3rem] bg-gradient-to-b from-[#0171BB] to-[#71C8E4] lg:p-[3rem] xl:p-[4rem] mac:p-[5rem]'>
+        <div className='xl:w-[60.30rem] lg:w-[50.25rem] mac:w-[70.25rem] lg:h-[28.5rem] xl:h-[32rem] rounded-[3rem] bg-gradient-to-b from-[#0171BB] to-[#71C8E4] lg:p-[3rem] xl:p-[4rem] mac:p-[5rem]'>
           <h6 className='text-center text-white text-[1.4rem] font-semibold leading-[1.25rem] pb-[1rem]'>
             HOT JOBS
           </h6>
@@ -124,7 +152,11 @@ const Blogs = () => {
           >
             <SwiperSlide className=''>
               <div className='flex justify-center relative max-w-[19.5rem] mx-auto '>
-                <img src={blogs3} alt='' className='w-[284.898px] h-[387px]' />
+                <img
+                  src={blogs3}
+                  alt=''
+                  className='w-[254.898px] iphone:w-[284.898px] h-[387px]'
+                />
 
                 <div className='absolute top-[16rem] w-[17rem] left-5 flex justify-center items-center'>
                   <h2 className='text-lg font-medium px-2 leading-normal text-center text-white'>
@@ -136,7 +168,11 @@ const Blogs = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className='flex justify-center relative max-w-[19.5rem] mx-auto '>
-                <img src={blogs2} alt='' className='w-[284.898px] h-[387px]' />
+                <img
+                  src={blogs2}
+                  alt=''
+                  className='w-[254.898px] iphone:w-[284.898px] h-[387px]'
+                />
 
                 <div className='absolute top-[16rem] w-[17rem] left-5 flex justify-center items-center'>
                   <h2 className='text-lg font-medium px-2 leading-normal text-center text-white'>
@@ -148,7 +184,11 @@ const Blogs = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className='flex justify-center relative max-w-[19.5rem] mx-auto '>
-                <img src={blogs1} alt='' className='w-[284.898px] h-[387px]' />
+                <img
+                  src={blogs1}
+                  alt=''
+                  className='w-[254.898px] iphone:w-[284.898px] h-[387px]'
+                />
 
                 <div className='absolute top-[16rem] w-[17rem] left-5 flex justify-center items-center'>
                   <h2 className='text-lg font-medium px-2 leading-normal text-center text-white'>
