@@ -71,9 +71,9 @@ const Nav = () => {
               onMouseEnter={toggleDropdown}
               // onMouseLeave={toggleDropdown}
               className={`${
-                location.pathname.startsWith('/homeCare') ||
-                location.pathname.startsWith('/nursingCare') ||
-                location.pathname.startsWith('/mentalCare') ||
+                location.pathname.startsWith('/nurses') ||
+                location.pathname.startsWith('/medicalDoctors') ||
+                location.pathname.startsWith('/careSupport') ||
                 isOpen
                   ? "xl:px-7 lg:px-5 gap-2 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'"
                   : 'xl:px-7 lg:px-5 gap-2 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
@@ -88,7 +88,7 @@ const Nav = () => {
                 className='absolute top-12 lg:left-[22.5rem] xl:left-[29.5rem] mac:left-[34rem] w-[190px] h-[108px] mt-2 bg-white shadow-lg rounded-md'
               >
                 <ul className='space-y-[10px] '>
-                  <Link to='/homeCare'>
+                  <Link to='/nurses'>
                     <li
                       className={` pl-5 pt-2 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                     >
@@ -98,12 +98,12 @@ const Nav = () => {
                   <li
                     className={` pl-5 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                   >
-                    <Link to='/nursingCare'>Medical doctors</Link>
+                    <Link to='/medicalDoctors'>Medical doctors</Link>
                   </li>
                   <li
                     className={` pl-5 text-[#014470] hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                   >
-                    <Link to='/mentalCare'>Care support worker</Link>
+                    <Link to='/careSupport'>Care support worker</Link>
                   </li>
                 </ul>
               </div>
@@ -127,12 +127,12 @@ const Nav = () => {
             <Link to='/careers'>
               <button
                 className={
-                  location.pathname === '/careers'
+                  location.pathname === '/employers'
                     ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
                     : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
                 }
               >
-                Careers
+                Employers
               </button>
             </Link>
           </li>
@@ -187,27 +187,27 @@ const Nav = () => {
                     <li
                       className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                     >
-                      <Link onClick={closeNav} to='/homeCare'>
+                      <Link onClick={closeNav} to='/nurses'>
                         {' '}
-                        Home care
+                        Nurses
                       </Link>
                     </li>
 
                     <li
                       className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                     >
-                      <Link onClick={closeNav} to='/nursingCare'>
+                      <Link onClick={closeNav} to='/medicalDoctors'>
                         {' '}
-                        Nursing care
+                        Medical doctors
                       </Link>
                     </li>
 
                     <li
                       className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
                     >
-                      <Link onClick={closeNav} to='/mentalCare'>
+                      <Link onClick={closeNav} to='/careSupport'>
                         {' '}
-                        Mental Health care
+                        Care support worker
                       </Link>
                     </li>
                   </ul>
@@ -224,7 +224,7 @@ const Nav = () => {
               onClick={closeNav}
               className='text-[#014470] text-xl hover:text-[#098666]'
             >
-              <Link to='/careers'>Careers</Link>
+              <Link to='/employers'>Employers</Link>
             </li>
           </ul>
         </div>

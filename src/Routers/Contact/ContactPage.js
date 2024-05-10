@@ -2,80 +2,128 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <section className='mac:pt-[25rem] md:pt-[12rem] pt-[7rem] lg:pt-[16rem] xl:pt-[20rem] pb-[5rem] md:pb-[7.8rem] max-w-[20rem] md:max-w-[38rem] lg:max-w-[48rem] xl:max-w-[55rem] mac:max-w-[65rem] mx-auto'>
-      <h5 className='special-font text-[#014470] text-[26px] md:text-[3rem] lg:text-[3.5rem] font-normal leading-normal pb-[1rem] md:pb-[2rem]'>
-        Contact us today and feel good again
+    <section className='mac:pt-[26rem] md:pt-[13rem] pt-[7rem] lg:pt-[18rem] xl:pt-[23rem] pb-[5rem] md:pb-[7.8rem] max-w-[20.5rem] iphone:max-w-[21rem] md:max-w-[38rem] lg:max-w-[48rem] xl:max-w-[55rem] mac:max-w-[65rem] mx-auto'>
+      <h5 className=' text-[#26465B] text-[14px] md:text-[1rem] lg:text-[1.11rem] xl:text-[1.25rem] font-normal md:leading-[20px] lg:leading-[30px] pb-[75px] lg:pb-[108px]'>
+        We’re here to assist you with your recruitment needs. Contact our team
+        today to discuss how we can support
+        <br className='hidden mac:block' /> your organisation in finding
+        qualified and compassionate care workers. Call us or email us for your
+        carers <br className='hidden mac:block' /> recruitment. We look forward
+        to hearing from you.
       </h5>
-      <div className=''>
-        <form className='mac:space-y-[2.7rem] space-y-[2.2rem] md:space-y-[2.5rem] lg:space-y-[2.7rem] '>
-          <div className='flex flex-col gap-5'>
-            <label
-              htmlFor='name'
-              className='text-sm md:text-base lg:md:text-base lg:text-[1.25rem] font-medium leading-normal text-[#26465B]'
-            >
-              Name:
-            </label>
-            <input
-              type='text'
-              id='name'
-              name='name'
-              className='border-2 border-[#E4E4E4] pl-5 focus:outline-blue-300  rounded-md w-full h-[3rem] md:h-[4rem]'
-            />
-          </div>
-          <div className='flex flex-col gap-[2.2rem] md:flex-row md:gap-5 lg:gap-7 w-full'>
-            <div className='flex flex-col gap-5 flex-grow'>
+      <div className='mac:max-w-[73rem] bg-white md:max-w-[38rem] xl:max-w-[65rem] lg:max-w-[53rem] pro:max-w-[52rem] max-w-[20rem] iphone:max-w-[22rem] mx-auto'>
+        <h5 className='text-[#098666] text-lg text-center md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
+          SEND US A MESSAGE
+        </h5>
+        <h2 className='special-font text-center text-[45px] pt-[7px] md:pt-0 leading-[40px] text-[#014470] md:text-3xl lg:text-5xl mac:text-7xl xl:text-6xl font-normal md:leading-tight lg:leading-[3.8rem]'>
+          Quick Contact
+        </h2>
+        <div className='pt-[3rem] lg:pt-[5rem] flex flex-col items-center gap-12 md:flex-row md:justify-between'>
+          <form className='mac:space-y-[2.5rem] w-full space-y-[2.2rem] md:space-y-[2.5rem] lg:space-y-[2.7rem] '>
+            <div className='flex flex-col  gap-3'>
               <label
-                htmlFor='phoneNumber'
-                className='md:text-base text-sm lg:text-[1.25rem] font-medium leading-normal text-[#26465B]'
+                htmlFor='name'
+                className='md:text-base  lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
               >
-                Phone Number:
+                Name:{' '}
+                <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                  (Required)
+                </span>
               </label>
+
               <input
                 type='text'
-                id='phoneNumber'
-                name='phoneNumber'
-                className='border-2 border-[#E4E4E4] focus:outline-blue-400  rounded-md pl-5 w-full h-[3rem] md:h-[4rem]'
+                id='name'
+                name='name'
+                className='border-2 border-[#E2E2E2] pl-5 focus:outline-blue-300 bg-[#E8FAFF] w-full h-[2.5rem] md:h-[4rem] rounded-md'
               />
             </div>
-            <div className='flex flex-col gap-5 flex-grow'>
+            <div className='flex flex-grow gap-[2.2rem] md:flex-row w-full md:gap-5 xl:gap-20'>
+              <div className='flex flex-col gap-3 w-full'>
+                <label
+                  htmlFor='phoneNumber'
+                  className='md:text-base hidden md:block lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
+                >
+                  Phone Number:{' '}
+                  <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                    (Required)
+                  </span>
+                </label>
+                <label
+                  htmlFor='phoneNumber'
+                  className='md:text-base block md:hidden lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
+                >
+                  Tel:{' '}
+                  <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                    (Required)
+                  </span>
+                </label>
+                <input
+                  type='text'
+                  id='phoneNumber'
+                  name='phoneNumber'
+                  className='border-2 border-[#E2E2E2] focus:outline-blue-400 bg-[#E8FAFF] pl-5 w-full h-[2.5rem] md:h-[4rem] rounded-md'
+                />
+              </div>
+              <div className='flex flex-col gap-3 w-full'>
+                <label
+                  htmlFor='email'
+                  className='md:text-base  lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
+                >
+                  Email:{' '}
+                  <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                    (Required)
+                  </span>
+                </label>
+                <input
+                  type='email'
+                  id='email'
+                  name='email'
+                  className='border-2 border-[#E2E2E2] focus:outline-blue-300 bg-[#E8FAFF] w-full pl-5 h-[2.5rem] md:h-[4rem] rounded-md'
+                />
+              </div>
+            </div>
+            <div className='flex flex-col gap-3 w-full'>
               <label
-                htmlFor='email'
-                className='md:text-base text-sm lg:text-[1.25rem] font-medium leading-normal text-[#26465B]'
+                htmlFor='name'
+                className='md:text-base  lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
               >
-                Email:
+                Introduce yourself:{' '}
+                <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                  (Required){' '}
+                </span>
               </label>
-              <input
-                type='email'
-                id='email'
-                name='email'
-                className='border-2 text-sm border-[#E4E4E4] focus:outline-blue-300  rounded-md w-full pl-5 h-[3rem] md:h-[4rem]'
+              <textarea
+                name='name'
+                className='border-2 border-[#E2E2E2] pl-5 focus:outline-blue-300 bg-[#E8FAFF] w-full h-[7rem] md:h-[12rem]'
               />
             </div>
-          </div>
-          <div className='flex flex-col gap-5'>
-            <label
-              htmlFor='name'
-              className='md:text-base text-sm lg:text-[1.25rem] font-medium leading-normal text-[#26465B]'
-            >
-              Message:
-            </label>
-            <textarea
-              type='text'
-              id='name'
-              name='name'
-              className='border-2 border-[#E4E4E4] pl-5 focus:outline-blue-300  rounded-md w-full h-[10rem] md:h-[15rem]'
-            />
-          </div>
 
-          <div className='flex justify-end items-end'>
-            <button
-              type='submit'
-              className='px-7 h-[40px] text-sm md:text-base md:h-[54px] rounded-full bg-[#098666] text-white'
-            >
-              Send message
-            </button>
-          </div>
-        </form>
+            <article className='flex flex-col gap-10 md:gap-0 md:flex-row md:justify-between md:items-center pt-3'>
+              <div className='flex flex-col gap-3 '>
+                <p className='md:text-base lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'>
+                  Add Your CV
+                </p>
+                <input
+                  type='file'
+                  className=''
+                  // placeholder='choose a file'
+                />
+
+                <p className='pt-1 text-[11px] leading-normal font-normal text-[#26465B]'>
+                  Max. file size: 2 MB.
+                </p>
+              </div>
+
+              <button
+                type='submit'
+                className='px-7 h-[45px] rounded-full bg-[#098666] text-white'
+              >
+                Submit
+              </button>
+            </article>
+          </form>
+        </div>
       </div>
     </section>
   );

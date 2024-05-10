@@ -12,7 +12,7 @@ const Contacts = () => {
     <div>
       <Hero />
       <ContactPage />
-      <Frequent />
+      {/* <Frequent /> */}
     </div>
   );
 };

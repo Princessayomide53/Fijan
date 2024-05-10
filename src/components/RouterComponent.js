@@ -32,7 +32,7 @@ const RouterComponent = () => {
         />
 
         <Route
-          path='/careers'
+          path='/employers'
           element={
             <Layout>
               <Career />
@@ -40,7 +40,7 @@ const RouterComponent = () => {
           }
         />
         <Route
-          path='/homeCare'
+          path='/nurses'
           element={
             <Layout>
               <Homecare />
@@ -48,7 +48,7 @@ const RouterComponent = () => {
           }
         />
         <Route
-          path='/nursingCare'
+          path='/medicalDoctors'
           element={
             <Layout>
               <Nurses />
@@ -56,7 +56,7 @@ const RouterComponent = () => {
           }
         />
         <Route
-          path='/MentalCare'
+          path='/careSupport'
           element={
             <Layout>
               <Mental />
