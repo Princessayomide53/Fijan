@@ -62,9 +62,10 @@ const HealthCare = () => {
   ];
   return (
     <section className='mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[65rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[0rem] md:pt-[0rem] mac:pt-[0rem] mac:pb-[8.5rem]'>
-      <h1 className='text-center md:text-left md:px-2 xl:px-7 mac:px-0 special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] '>
+      {/* <h1 className='text-center md:text-left md:px-2 xl:px-7 mac:px-0 special-font text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] '>
         Healthcare Assistant
-      </h1>
+      </h1> */}
+
       <div className='flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-between xl:justify-around py-[2rem] md:py-[2.5rem] mac:justify-between lg:py-[3.7rem] xl:py-[3.5rem]'>
         {jobs.map((job) => (
           <div

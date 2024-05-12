@@ -20,7 +20,7 @@ const Blogs = () => {
     { id: 3, img: Blog2 },
   ];
   return (
-    <section className='mac:max-w-[83rem] max-w-[20.5rem] iphone:max-w-[22rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] md:pt-[3rem] mx-auto pb-[3.5rem] md:pb-[0rem] lg:pb-[2rem] xl:pb-[0rem] mac:pb-[4rem]'>
+    <section className='mac:max-w-[83rem] max-w-[20.5rem] iphone:max-w-[22rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] md:pt-[3rem] mx-auto pb-[3.5rem] md:pb-[0rem] lg:pb-[2rem] xl:pb-[0rem] mac:pb-[3rem]'>
       <div className='hidden md:block'>
         <h5 className='text-center text-[#098666] text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] '>
           NAVIGATING HEALTHCARE INSIGHTS

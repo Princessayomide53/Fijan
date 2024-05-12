@@ -19,7 +19,7 @@ const Settle = () => {
         <div className='absolute inset-0 bg-black opacity-50'></div>
       </div>
       <div className='absolute top-[14rem] iphone:top-[16rem] md:top-1/2 left-1/2 transform -translate-x-1/2  -translate-y-1/2 text-center text-white'>
-        <h3 className='md:text-[2rem] font-normal w-[20.5rem] iphone:w-[21rem] text-[30px] iphone:text-[35px] leading-[40px] special-font lg:text-[2.5rem] md:w-[28rem] xl:w-[55rem] mac:w-[45rem] 2xl:w-[50rem] mx-auto md:leading-tight xl:text-[3.7rem] xl:leading-[3.75rem] mac:text-[4rem]'>
+        <h3 className='md:text-[2rem] font-normal w-[20.5rem] iphone:w-[21rem] text-[30px] iphone:text-[35px] leading-[40px] special-font lg:text-[2.5rem] md:w-[29rem] xl:w-[55rem] mac:w-[45rem] 2xl:w-[60rem] mx-auto md:leading-tight xl:text-[3.7rem] xl:leading-[3.75rem] mac:text-[4rem]'>
           Discover the Fijan healthcare difference and witness how we can
           transform your future
         </h3>

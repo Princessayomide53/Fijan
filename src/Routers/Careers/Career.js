@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from './Hero';
 import Nurses from './Nurses';
-import Settle from '../../components/Settle';
+import Jobs from '../../components/Jobs';
 import Frequent from '../../components/Frequent';
 import HealthCare from './HealthCare';
 
@@ -14,9 +14,7 @@ const Career = () => {
     <div>
       <Hero />
       <Nurses />
-      <HealthCare />
-      <Settle />
-      <Frequent />
+      <Jobs />
     </div>
   );
 };

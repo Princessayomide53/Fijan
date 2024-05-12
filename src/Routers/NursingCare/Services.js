@@ -4,92 +4,127 @@ import homecares from '../../Assets/homecares.png';
 
 const Services = () => {
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[22rem] mx-auto '>
-      <div className='md:mt-[16rem] mt-[7rem] lg:mt-[22rem] mac:mt-[26rem] flex flex-col gap-5 md:gap-0 md:flex-row md:justify-between'>
+    <section className='mac:max-w-[83rem] pb-[3rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[22rem] mx-auto '>
+      <div className='md:mt-[16rem] mt-[7rem] lg:mt-[18rem] xl:mt-[22rem] mac:mt-[26rem] flex flex-col gap-5  md:gap-8 lg:gap-0 md:flex-row md:justify-between'>
         <span>
           <p className='text-[#098666] font-medium leading-[20px]'>
-            SERVICES - HOMECARE
+            JOB SEEKERS - MEDICAL DOCTORS
           </p>
           <h3 className='text-[#014470] text-3xl md:text-4xl special-font lg:text-5xl lg:leading-[35px] xl:text-6xl mac:text-7xl font-normal xl:leading-[45px] mac:leading-[60px]'>
-            Healthcare at the comfort
-            <br /> of your home
+            Need to care
           </h3>
-          <p className='pt-[2.5rem] md:text-[13px] md:w-[19.5rem]  lg:w-[28rem] xl:w-[34rem] flex flex-wrap text-[#26465B] lg:text-base xl:text-[16.5px] font-normal leading-normal'>
-            Our Nursing Care service is a heartfelt commitment to the well-being
-            of the elderly, recognizing the unique and evolving needs that come
-            with the golden years.
-            <br />
-            <br /> Tailored to provide gentle and skilled support, our service
-            focuses on creating an environment where seniors can age with
-            dignity and comfort.
-            <br />
-            <br /> Our seniors are invaluable treasures, and our care is the
-            lifeline they need to thrive and enjoy life.
-            <br />
-            <br />
-            At the heart of our service is the belief that aging should be a
-            time of comfort, joy, and cherished moments.
+          <p className='pt-[1rem] md:pt-[2.5rem] text-[12px] w-[20.5rem] md:text-[12px] md:w-[20rem] lg:w-full flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal'>
+            Finding a job in care can prove a daunting experience especially for
+            <br className='hidden lg:block' />
+            those looking to enter the sector for the first time. There are a
+            whole <br className='hidden lg:block' />
+            host of checks and processes to complete before you are eligible to
+            <br className='hidden lg:block' />
+            work in care and sometimes the whole experience can be over
+            <br className='hidden lg:block' />
+            complicated and drawn out.
+            <br className='hidden lg:block' /> At Careworkers UK, we are here to
+            help you find your next care job in
+            <br className='hidden lg:block' /> the most simple and manageable
+            way. From the outset, we have the
+            <br className='hidden lg:block' /> tools and experience to judge
+            whether working in care is right for you{' '}
+            <br className='hidden lg:block' />
+            and with a transparent approach you will always know exactly where
+            <br className='hidden lg:block' />
+            you stand.
+            <br className='hidden lg:block' /> If we feel you are suited to
+            working in care, we will support and hold
+            <br className='hidden lg:block' /> your hand through the entire
+            recruitment process, giving you advice
+            <br className='hidden lg:block' /> and guidance so you can enter
+            this sector with minimal fuss.
+          </p>
+          <h5 className='pt-[30px] pb-[18px] text-[#014470] md:text-[16.5px] lg:text-[22px] leading-normal font-semibold'>
+            Experienced Career
+          </h5>
+          <p className='text-[#26465B]  text-[12px] md:w-[21rem] lg:w-full lg:text-sm xl:text-base mac:text-lg font-normal leading-[20px] lg:leading-[30px]'>
+            If you’re an experienced carer and it’s a change of scenery you’re
+            <br className='hidden lg:block' />
+            looking for, speak to the recruitment team today who’ll be able to
+            <br className='hidden lg:block' />
+            advise you on the opportunities we have available or see the current
+            <br className='hidden lg:block' />
+            jobs we have available below.
           </p>
         </span>
-        <article className='relative mt-16 md:mt-24 lg:mt-24'>
+        <article className='relative mt-7 lg:mt-9 xl:mt-11 mac:mt-14'>
+          <div>
+            <h5 className='text-[#014470] font-semibold md:text-lg lg:text-[22px] xl:text-[32px] leading-[30px]'>
+              Join us Today and Unveil your Future
+            </h5>
+
+            <p className='lg:py-[24px] py-[12px] md:py-[18px] mac:py-[30px] text-[#26465B] w-[20rem] lg:w-full md:text-[12px] text-[12px] lg:text-sm xl:text-base mac:text-lg font-normal leading-[20px] lg:leading-[30px]'>
+              When you feel prepared, apprise us of a suitable
+              <br /> rendezvous to connect with one of our esteemed
+              <br /> nursing team members at Fijanhealthcare. Commence <br />
+              your journey by clicking the “Register Today” button.
+            </p>
+            <button className=' px-5 xl:px-7 py-2 md:text-sm lg:text-base flex justify-center items-center rounded-full bg-[#098666] text-white'>
+              {/* <HashRouterLink smooth to='#section1'> */} Register Now
+              {/* </HashRouterLink> */}
+            </button>
+          </div>
           <img
             src={Frame}
             alt=''
-            className='lg:mr-[6rem] h-[240px] ml-[0.7rem] mt-5 md:h-[280px] lg:h-full xl:h-[300px] object-contain md:mr-[6rem] md:-mt-2 lg:-mt-7 xl:mt-3 mac:mt-5 xl:mr-[10rem]'
+            className='lg:mr-[6rem] ml-[0.7rem] mt-16 h-[120px] md:h-[155px] object-contain md:mr-[4rem] md:mt-24 lg:mt-16 xl:mt-[72px] mac:mt-32 xl:mr-[10rem]'
           />
-          <div className='bg-[#E1F8FF] w-[290px] h-[370px] md:h-[390px] lg:h-[425px] xl:h-[480px] rounded-lg px-[44px] py-[2.5rem] absolute z-10 -top-10 left-10 md:-top-16 md:right-1 lg:right-5 md:w-[320px] lg:w-[370px] xl:w-[414px]'>
-            <h2 className='text-[#012D4A] text-[22px] md:text-[24px] lg:text-[28px] xl:text-[32px] font-medium leading-normal'>
+          <div className='bg-[#E1F8FF] w-[290px] md:h-[210px] mac:h-[250px]  rounded-lg px-[29px] lg:px-[44px] py-[1.2rem] lg:py-[1.5rem] xl:py-[2rem] mac:py-[2.5rem] absolute z-10 top-52 left-10 md:top-60 lg:top-[276px] xl:top-64 mac:top-80 md:right-1 lg:right-5 md:w-[300px] lg:w-[370px] xl:w-[414px]'>
+            <h2 className='text-[#012D4A] text-[22px]  md:text-[28px] mac:text-[32px] font-medium leading-normal'>
               Other Services
             </h2>
-            <p className='pt-[18px] xl:pt-[20px] xl:pb-[15px] pb-[10px] border-b-2 border-[#71C8E4] text-[#012D4A] font-medium leading-normal lg:text-[20px] xl:text-[24px]'>
-              Nursing Care
+            <p className='pt-[24px] pb-[10px] border-b-2 border-[#71C8E4] text-[#098666] font-medium leading-normal md:text-[20px] mac:text-[24px]'>
+              Nurses
             </p>
-            <p className='pt-[18px] xl:pt-[20px] xl:pb-[15px] pb-[10px] border-b-2 border-[#71C8E4] text-[#012D4A] font-medium leading-normal lg:text-[20px] xl:text-[24px]'>
-              Mental Health Care
-            </p>
-            <p className='pt-[18px] xl:pt-[20px] xl:pb-[15px] pb-[10px] border-b-2 border-[#71C8E4] text-[#012D4A] font-medium leading-normal lg:text-[20px] xl:text-[24px]'>
-              Nursing Care
-            </p>
-            <p className='pt-[18px] xl:pt-[20px] xl:pb-[15px] pb-[10px] border-b-2 border-[#71C8E4] text-[#012D4A] font-medium leading-normal lg:text-[20px] xl:text-[24px]'>
-              Mental Health Care
-            </p>
-            <p className='pt-[18px] xl:pt-[20px] xl:pb-[15px] pb-[10px] text-[#012D4A] font-medium leading-normal lg:text-[20px] xl:text-[24px]'>
-              Health Care Staffing
+            <p className='pt-[18px] pb-[10px]  text-[#098666] font-medium leading-normal md:text-[20px] mac:text-[24px]'>
+              Care Support Worker
             </p>
           </div>
         </article>
       </div>
-      <div className='mac:mt-24 md:mt-[5rem] lg:mt-[6rem] xl:mt-[7rem] mt-[8rem] pb-5 flex flex-col gap-10 justify-center md:flex-row md:justify-between items-center'>
+      <div className='mac:mt-24 md:mt-[5rem] lg:mt-[7rem] mt-[7rem] pb-5 flex flex-col gap-10 md:gap-20 lg:gap-0 justify-center md:flex-row md:justify-between items-center'>
         <img
           src={homecares}
           alt=''
-          className='h-[18.5rem] w-[20rem] md:w-[18.5rem] md:h-[19rem] lg:w-[27rem] lg:h-[26rem] xl:w-[35rem] xl:h-[30rem]'
+          className='h-[16rem] w-[20rem] md:w-[18.5rem] md:h-[15.5rem] lg:w-[27rem] lg:h-[23rem] xl:w-[35rem] mac:w-[42rem] xl:h-[28rem] mac:h-[32rem]'
         />
         <div className='w-[19.5rem] md:w-[22rem] xl:w-[35rem] lg:w-[27.5rem]'>
           <h4 className='text-[#014470] md:text-left text-center text-[16px] lg:text-[20px] xl:text-[24px] font-semibold leading-normal'>
-            What you should expect when you choose us
+            What to Expect from Us
           </h4>
 
           <ul className='list-disc mt-[1.5rem] lg:mt-[2rem] space-y-[1.2rem] lg:space-y-[1.5rem]'>
             <li className='text-[#26465B] font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
-              We put you, your needs and your wellbeing first
+              A dedicated and professional recruitment team
             </li>
             <li className='text-[#26465B] font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
-              We guarantee you safety and a high quality of care as we maintain
-              care standards and guidelines
+              Expert careers guidance and development
             </li>
             <li className='text-[#26465B] font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
-              Professional services from a team of skilled experts who offer
-              personalized services
+              Ongoing support
             </li>
             <li className='text-[#26465B] font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
-              Find your family in our caregivers. You will br treated like
-              you’re one of us
+              Excellent understanding of the care sector
             </li>
             <li className='text-[#26465B] font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
-              Our unrelenting commitment to our core values of compassion,
-              empathy, and kindness for our patients
+              Commitment to best recruitment practices
             </li>
+            <li className='text-[#26465B] pb-3 font-normal leading-normal text-sm md:text-xs lg:text-base xl:text-lg'>
+              Esteemed Partner with Leading Healthcare Institutions
+            </li>
+            {/* <li> */}
+            <button className=' px-5 xl:px-7 md:text-sm lg:text-base py-2 flex justify-center items-center rounded-full bg-[#098666] text-white'>
+              {/* <HashRouterLink smooth to='#section1'> */} Download our CV
+              template
+              {/* </HashRouterLink> */}
+            </button>
+            {/* </li> */}
           </ul>
         </div>
       </div>

@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className=''>
       <ReusableHeader
-        text='SERVICES - HOMECARE'
-        title='Home Care'
+        text='JOB SEEKERS - NURSES'
+        title='Nurses'
         imageSrc={Homecare}
       />
     </div>

@@ -13,21 +13,21 @@ const Services = () => {
       img: Mask1,
       title: 'NURSES',
       text: 'Learn more',
-      Link: '/homeCare',
+      Link: '/nurses',
     },
     {
       id: 2,
       img: Mask2,
       title: 'MEDICAL DOCTORS',
       text: 'Learn more',
-      Link: '/nursingCare',
+      Link: '/medicalDoctors',
     },
     {
       id: 3,
       img: Mask3,
       title: 'CARE SUPPORT WORKER',
       text: 'Learn more',
-      Link: '/mentalCare',
+      Link: '/careSupport',
     },
   ];
   return (

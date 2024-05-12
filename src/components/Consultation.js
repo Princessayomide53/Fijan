@@ -60,10 +60,19 @@ const Consultation = () => {
               <div className='flex flex-col gap-3 w-full'>
                 <label
                   htmlFor='phoneNumber'
-                  className='md:text-base  lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
+                  className='md:text-base hidden md:block lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
                 >
                   Phone Number:{' '}
                   <span className='text-[#984429] font-normal leading-[32px] text-sm italic'>
+                    (Required)
+                  </span>
+                </label>
+                <label
+                  htmlFor='phoneNumber'
+                  className='md:text-base block md:hidden  lg:text-[1.125rem] font-medium leading-[32px] text-[#26465B]'
+                >
+                  Tel:{' '}
+                  <span className='text-[#984429]  font-normal leading-[32px] text-sm italic'>
                     (Required)
                   </span>
                 </label>

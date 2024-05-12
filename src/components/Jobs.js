@@ -37,7 +37,7 @@ const Jobs = () => {
     },
   ];
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.5rem] md:py-[4rem] lg:py-0 lg:pt-[3rem] lg:pb-[4rem] xl:pb-[0rem] xl:pt-[3rem] mac:pt-[4rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.5rem] pb-[2rem] md:py-[4rem] lg:py-0 lg:pt-[3rem] lg:pb-[4rem] xl:pb-[0rem] xl:pt-[3rem] mac:pt-[4rem] mac:pb-[2rem]'>
       <h6 className='text-center text-lg text-[#098666] lg:text-[1.25rem] xl:text-[1.4rem] font-semibold leading-[1.25rem] '>
         HOT JOBS
       </h6>
@@ -49,7 +49,7 @@ const Jobs = () => {
         {jobs.map((job) => (
           <div
             key={job.id}
-            className='md:w-[12.8375rem] w-[300px] iphone:w-[319px] h-[342px] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1.5rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[22.375rem] bg-[#0171BB] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]'
+            className='md:w-[12.8375rem] w-[300px] iphone:w-[319px] h-[342px] md:h-[18.5375rem] lg:w-[17.5375rem] py-[1.5rem] xl:w-[17.9375rem] mac:w-[19.9375rem] xl:h-[22.575rem] lg:h-[20.375rem] bg-[#0171BB] rounded-xl px-[1.2rem] md:py-[1.2rem] lg:py-[1.7rem]'
           >
             <h4 className='text-[#fff] hidden md:block lg:pb-[1rem] md:pb-[0.5rem] mac:pb-[1.5rem] md:text-[14px] lg:text-[1rem] mac:text-[1.25rem] font-bold leading-[1.25rem]'>
               {job.title}
@@ -74,7 +74,7 @@ const Jobs = () => {
       </div>
       <div className='flex justify-center'>
         <button className='bg-[#098666] mb-[15px] md:my-[2rem] lg:my-[3rem] xl:my-[0rem] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-5 md:py-3 rounded-full'>
-          <Link to='/careers'> Explore Careers</Link>
+          <Link to='/employers'> Explore Careers</Link>
           <IoArrowForward className='text-white text-[18px]' />
         </button>
       </div>

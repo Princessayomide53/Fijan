@@ -35,31 +35,30 @@ const Nav = () => {
               className='h-[2rem] xl:w-[39.301px] lg:w-[35.301px] lg:h-[45px] xl:h-[49px]'
             />
           </Link>
-          <h2 className='text-[#0171BB] md:text-[1.5rem] lg:text-[1.7rem] xl:text-[2rem] mac:text-[2.23rem] font-bold leading-[28.697px]'>
+          <h2 className='text-[#0171BB] md:text-[1.5rem] lg:text-[1.5rem] xl:text-[2rem] mac:text-[2.23rem] font-bold leading-[28.697px]'>
             FIJAN
           </h2>
         </div>
-        <ul className='lg:flex hidden xl:space-x-[2.5rem] lg:space-x-[1.5rem] mac:space-x-[4rem] mt-2 z-20'>
+        <ul className='lg:flex hidden xl:space-x-[1.5rem] lg:space-x-[1.4rem] mac:space-x-[3rem] lg:mt-4 xl:mt-3 mt-2 z-20'>
           <li className=''>
             <Link to='/'>
               <button
                 className={
                   location.pathname === '/'
-                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] hover:bg-white transition duration-150 lg:text-base xl:text-lg leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg hover:bg-white transition duration-150 leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-4 py-1 bg-white text-[#098666] hover:bg-white transition duration-150 lg:text-base xl:text-lg leading-[16px] font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-4 py-1 text-[#014470] lg:text-base xl:text-lg hover:bg-white transition duration-150 leading-[16px] font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Home
               </button>
             </Link>
           </li>
-
           <Link to='/about'>
             <button
               className={
                 location.pathname === '/about'
-                  ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                  : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                  ? 'xl:px-7 lg:px-4 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'
+                  : 'xl:px-7 lg:px-4 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
               }
             >
               About
@@ -75,17 +74,17 @@ const Nav = () => {
                 location.pathname.startsWith('/medicalDoctors') ||
                 location.pathname.startsWith('/careSupport') ||
                 isOpen
-                  ? "xl:px-7 lg:px-5 gap-2 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'"
-                  : 'xl:px-7 lg:px-5 gap-2 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                  ? "xl:px-7 lg:px-4 gap-2 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'"
+                  : 'xl:px-7 lg:px-4 gap-2 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
               }`}
             >
-              Services{' '}
+              Job seekers
               <IoIosArrowDown className={`${isOpen ? 'mt-1' : 'mt-1'}`} />
             </button>
             {isOpen && (
               <div
                 onMouseLeave={toggled}
-                className='absolute top-12 lg:left-[22.5rem] xl:left-[29.5rem] mac:left-[34rem] w-[190px] h-[108px] mt-2 bg-white shadow-lg rounded-md'
+                className='absolute top-12 lg:left-[21rem] xl:left-[28.4rem] mac:left-[33rem] w-[195px] h-[108px] mt-2 bg-white shadow-lg rounded-md'
               >
                 <ul className='space-y-[10px] '>
                   <Link to='/nurses'>
@@ -109,30 +108,30 @@ const Nav = () => {
               </div>
             )}
             {/* </Link> */}
+          </li>{' '}
+          <li className=''>
+            <Link to='/employers'>
+              <button
+                className={
+                  location.pathname === '/employers'
+                    ? 'xl:px-7 lg:px-4 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-4 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                }
+              >
+                Employers
+              </button>
+            </Link>
           </li>
           <li className=''>
             <Link to='/contact'>
               <button
                 className={
                   location.pathname === '/contact'
-                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
+                    ? 'xl:px-7 lg:px-4 py-1 bg-white text-[#098666] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#098666] flex justify-center items-center'
+                    : 'xl:px-7 lg:px-4 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
                 }
               >
                 Contact Us
-              </button>
-            </Link>
-          </li>
-          <li className=''>
-            <Link to='/careers'>
-              <button
-                className={
-                  location.pathname === '/employers'
-                    ? 'xl:px-7 lg:px-5 py-1 bg-white text-[#014470] lg:text-base xl:text-lg leading-[16px]  hover:bg-white transition duration-150 font-medium rounded-full border-2 border-[#014470] flex justify-center items-center'
-                    : 'xl:px-7 lg:px-5 py-1 text-[#014470] lg:text-base xl:text-lg leading-[16px] font-medium rounded-full hover:bg-white transition duration-150 border-2 border-[#014470] flex justify-center items-center'
-                }
-              >
-                Employers
               </button>
             </Link>
           </li>
@@ -141,7 +140,7 @@ const Nav = () => {
           <li className=' lg:px-5 xl:px-7 py-1 flex justify-center items-center rounded-full bg-[#098666] text-white'>
             <HashRouterLink smooth to='#section1'>
               {' '}
-              Get Started{' '}
+              Register Now
             </HashRouterLink>
           </li>
         </ul>
