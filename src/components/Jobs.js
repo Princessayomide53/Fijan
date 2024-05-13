@@ -42,10 +42,10 @@ const Jobs = () => {
         HOT JOBS
       </h6>
 
-      <h1 className='text-center special-font text-[45px] leading-[40px] md:text-4xl md:leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-7xl text-[#014470] '>
+      <h1 className='text-center special-font text-[42px] leading-[40px] md:text-4xl md:leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-7xl text-[#014470] '>
         Nursing and Healthcare Hot jobs
       </h1>
-      <div className='flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-around pt-[67px] pb-[75px] md:pt-[2.5rem] md:pb-[1rem] lg:pb-0 mac:justify-between lg:py-[3rem] xl:py-[4rem]'>
+      <div className='flex flex-col justify-center items-center gap-10 md:gap-0 md:flex-row md:justify-around pt-[67px] pb-[55px] md:pt-[2.5rem] md:pb-[1rem] lg:pb-0 mac:justify-between lg:py-[3rem] xl:py-[4rem]'>
         {jobs.map((job) => (
           <div
             key={job.id}
@@ -72,8 +72,8 @@ const Jobs = () => {
           </div>
         ))}
       </div>
-      <div className='flex justify-center'>
-        <button className='bg-[#098666] mb-[15px] md:my-[2rem] lg:my-[3rem] xl:my-[0rem] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-5 md:py-3 rounded-full'>
+      <div className='flex md:justify-center'>
+        <button className='bg-[#098666] flex-grow justify-center md:flex-grow-0 mb-[15px] md:my-[2rem] lg:my-[3rem] xl:my-[0rem] flex gap-3 text-lg font-medium leading-[16px] text-white px-7 py-5 md:py-3 rounded-full'>
           <Link to='/employers'> Explore Careers</Link>
           <IoArrowForward className='text-white text-[18px]' />
         </button>
