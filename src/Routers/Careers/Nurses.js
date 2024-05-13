@@ -49,11 +49,11 @@ const Nurses = () => {
     setHover(null);
   };
   return (
-    <section className='mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[65rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[7rem] md:pt-[3rem] lg:pt-[5rem] xl:pt-[11rem] mac:pt-[9rem]'>
+    <section className='mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[65rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[9.5rem] md:pt-[3rem] lg:pt-[5rem] xl:pt-[11rem] mac:pt-[9rem]'>
       {/* <h1 className=' text-center md:text-left special-font md:px-2 xl:px-7 mac:px-0 text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] '>
         Registered General Nurse - RGN
       </h1> */}
-      <p className='pt-[1rem] md:pt-[2.5rem] text-[12px]  md:text-[12px] max-w-[20.5rem] md:max-w-[35rem] lg:max-w-[45rem] xl:max-w-[60rem] mac:max-w-[70rem] mx-auto flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal'>
+      <p className='pt-[1rem] md:pt-[2.5rem] text-[14px] leading-[28px] md:text-[12px] max-w-[20.5rem] md:max-w-[35rem] lg:max-w-[45rem] xl:max-w-[60rem] mac:max-w-[70rem] mx-auto flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal'>
         As a recruitment agency for care workers, we understand the unique
         challenges and requirements that employers in the healthcare
         <br className='hidden mac:block' /> industry face. We are dedicated to
@@ -67,16 +67,16 @@ const Nurses = () => {
         process, saving you time and <br className='hidden mac:block' />
         resources while ensuring the highest standard of care for your clients.
       </p>
-      <h1 className=' text-center special-font pt-[40px] md:pt-[50px] xl:pt-[75px] mac:px-0 text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-7xl mac:text-[3.5rem] text-[#014470] '>
+      <h1 className=' text-center special-font pt-[64px] md:pt-[50px] xl:pt-[75px] mac:px-0 text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-7xl mac:text-[3.5rem] text-[#014470] '>
         Our Services
       </h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mac:grid-cols-3 gap-y-[40px] md:gap-y-[55px] lg:gap-y-[83px] gap-x-[20px] pt-[20px] md:pt-[46px] hover:bg-white'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mac:grid-cols-3 gap-y-[50px] md:gap-y-[55px] lg:gap-y-[83px] gap-x-[20px] pt-[50px] md:pt-[46px] hover:bg-white'>
         {jobs.map((cards) => (
           <div
             key={cards.id}
             onMouseEnter={() => handleMouseEnter(cards.id)}
             onMouseLeave={handleMouseLeave}
-            className='w-[300px] mx-auto md:w-[340px] md:h-[622px] lg:w-[413px] lg:h-[662px] bg-[#E1F8FF] py-[32px] px-[25px] transition-colors duration-300 ease-in-out hover:bg-white hover:shadow-md hover:shadow-[#00000026]'
+            className='w-[300px] iphone:w-[340px] mx-auto md:w-[340px] md:h-[622px] lg:w-[413px] lg:h-[662px] bg-[#E1F8FF] py-[32px] px-[18px] md:px-[25px] transition-colors duration-300 ease-in-out hover:bg-white hover:shadow-md hover:shadow-[#00000026]'
           >
             {hover === cards.id ? (
               <div className=' bg-[#0171BB] w-10 h-10 flex justify-center items-center rounded-full'>
@@ -122,10 +122,10 @@ const Nurses = () => {
               </div>
             )}
 
-            <h3 className='pt-[15px] special-font text-[#014470] text-xl md:text-[20px] lg:text-[28px] font-normal leading-normal'>
+            <h3 className='pt-[15px] special-font text-[#014470] text-[23px] md:text-[20px] lg:text-[28px] font-normal leading-normal'>
               {cards.title}
             </h3>
-            <p className='pt-[18px] leading-normal font-normal md:leading-[26px] text-[12.5px] md:text-[13px] lg:text-base text-[#26465B]'>
+            <p className='pt-[18px] font-normal leading-[26px] text-[14px] md:text-[13px] lg:text-base text-[#26465B]'>
               {cards.description}
             </p>
           </div>
