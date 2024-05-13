@@ -9,7 +9,7 @@ const Settle = () => {
         <img
           src={settle}
           alt=''
-          className='w-full object-cover min-h-[17rem] hidden md:flex md:max-h-[36rem]'
+          className='w-full object-cover min-h-[17rem] hidden md:flex md:max-h-[36.5rem]'
         />
         <img
           src={mobile}
@@ -28,8 +28,8 @@ const Settle = () => {
           step towards your healthcare career or enhance your workforce by
           speaking with our friendly team of healthcare recruitment advisors
         </p>
-        <ul className='md:mt-5 xl:mt-12 flex justify-center mt-[32px] iphone:mt-[48px]'>
-          <li className='px-7 py-[10px] md:px-7 md:py-3 flex justify-center text-[15px] md:text-sm lg:text-base items-center rounded-full bg-[#098666] text-white'>
+        <ul className='md:mt-7 xl:mt-12 flex justify-center mt-[32px] iphone:mt-[48px]'>
+          <li className='px-7 flex-grow md:flex-grow-0 py-[10px] md:px-7 md:py-3 flex justify-center text-[15px] md:text-sm lg:text-base items-center rounded-full bg-[#098666] text-white'>
             Register Now
           </li>
         </ul>
