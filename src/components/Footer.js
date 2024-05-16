@@ -9,7 +9,7 @@ import { FaArrowUp } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <section className='bg-[#012D4A] h-[62.56rem] md:h-[34.56rem] md:mt-[3.5rem]'>
+    <section className='bg-[#012D4A] h-[62.56rem] md:h-[34.56rem] md:mt-[2rem] lg:mt-[3.5rem]'>
       <article className='md:border-b-2 border-[#005773] px-4 iphone:px-0'>
         <div className='mac:max-w-[83rem] md:max-w-[45rem] flex gap-3 md:gap-0 flex-col md:flex-row md:justify-between lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[2rem] md:py-[1rem]'>
           <div className='flex gap-3 md:gap-5 items-center'>

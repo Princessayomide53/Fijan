@@ -3,6 +3,8 @@ import Hero from './Hero';
 import Services from './Services';
 import Consultation from '../../components/Consultation';
 import Frequent from '../../components/Frequent';
+import Filter from '../HomeCare/Filter';
+import Jobs from '../../components/Jobs';
 
 const Nurses = () => {
   useEffect(() => {
@@ -13,8 +15,10 @@ const Nurses = () => {
     <div>
       <Hero />
       <Services />
-      <Consultation />
-      <Frequent />
+      <Filter />
+      <Jobs />
+      {/* <Consultation /> */}
+      {/* <Frequent /> */}
     </div>
   );
 };

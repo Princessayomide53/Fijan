@@ -1,6 +1,8 @@
 import React from 'react';
 import ReusableHeader from '../ReusableHeader';
 import Mental from '../../Assets/Mental.png';
+import Support from '../../Assets/Support.png';
+import Supports from '../../Assets/Supports.png';
 
 const Hero = () => {
   return (
@@ -8,7 +10,8 @@ const Hero = () => {
       <ReusableHeader
         text='JOB SEEKERS - CARE SUPPORT WORKERS'
         title='Care Support Workers'
-        imageSrc={Mental}
+        imageSrc={Support}
+        imageSrc2={Supports}
       />
     </div>
   );

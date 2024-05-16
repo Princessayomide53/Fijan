@@ -37,13 +37,13 @@ const Values = () => {
         {values.map((val, index) => (
           <div
             key={index}
-            className='shadow-md h-[8.5rem] lg:w-[25.75rem] xl:w-[34.75rem] px-[0.9rem] mac:w-[36.75rem] md:px-[0.75rem] py-[0.75rem] lg:px-[1rem] xl:px-[2rem] lg:py-[1rem] rounded-3xl md:h-[11.125rem] lg:h-[11.225rem] mac:h-[10.125rem]'
+            className='shadow-lg shadow-[#0000001F] h-[8.5rem] lg:w-[25.75rem] xl:w-[34.75rem] px-[0.9rem] mac:w-[36.75rem] md:px-[0.75rem] py-[0.75rem] lg:px-[1rem] xl:px-[2rem] lg:py-[1rem] rounded-3xl md:h-[11.125rem] lg:h-[11.225rem] mac:h-[10.125rem]'
           >
             <div className='flex gap-3 md:gap-5'>
-              <div className='w-[120px] h-[120px] md:w-[150px] md:h-[150px] mt-[47px] md:mt-7'>
+              <div className='w-[120px] h-[120px] md:w-[150px] md:h-[150px] mt-[47px] md:mt-7 xl:mt-9'>
                 <img src={Icon} alt='' className=' object-fill' />
               </div>
-              <div className='flex flex-col md:gap-y-2 lg:gap-y-3 xl:gap-y-5'>
+              <div className='flex flex-col md:gap-y-2 lg:gap-y-3 xl:gap-y-2'>
                 <h2 className='text-[#014470] text-xl special-font font-normal md:text-[18px] lg:text-[20px]  xl:text-[1.75rem] leading-normal'>
                   {val.title}
                 </h2>

@@ -4,6 +4,7 @@ import Nurses from './Nurses';
 import Jobs from '../../components/Jobs';
 import Frequent from '../../components/Frequent';
 import HealthCare from './HealthCare';
+import Filter from '../HomeCare/Filter';
 
 const Career = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Career = () => {
     <div>
       <Hero />
       <Nurses />
+      <Filter />
       <Jobs />
     </div>
   );

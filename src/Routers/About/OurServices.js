@@ -6,7 +6,7 @@ import about4 from '../../Assets/about4.png';
 
 const OurServices = () => {
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[19rem] xl:mt-[26rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[18rem] xl:mt-[24rem]'>
       <h5 className='text-[#098666] text-center md:text-left text-sm leading-[20px] md:text-base lg:text-[1.58rem] font-semibold md:leading-[1.58rem]'>
         OUR SERVICES
       </h5>
@@ -14,7 +14,7 @@ const OurServices = () => {
         Who we are
       </h3>
       <div className='flex flex-col md:flex-row gap-[3rem] md:gap-[5rem] py-[2rem]'>
-        <p className='text-[#26465B] flex-wrap text-sm lg:text-[1.1rem] text-justify font-normal whitespace-pre-wrap leading-[1.75rem]'>
+        <p className='text-[#26465B] flex-wrap text-sm lg:text-[1.1rem] lg:px-2 text-justify font-normal whitespace-pre-wrap leading-[1.75rem]'>
           Fijan healthcare is a pioneering healthcare recruitment agency
           committed to revolutionising the healthcare staffing landscape and
           addressing the care sector’s pressing challenges. With an unparalleled
@@ -33,7 +33,7 @@ const OurServices = () => {
           />
         </div>
 
-        <p className='text-[#26465B] flex-wrap text-justify text-sm lg:text-[1.1rem] md:px-5 whitespace-pre-wrap font-normal leading-[1.75rem]'>
+        <p className='text-[#26465B] flex-wrap text-justify text-sm lg:text-[1.1rem] md:px-5 lg:px-3 whitespace-pre-wrap font-normal leading-[1.75rem]'>
           Our adept team of Recruitment Advisors endeavours to identify and
           connect the most adept and dedicated nurses and care professionals
           with the specific requirements and aspirations of each esteemed care
@@ -44,7 +44,7 @@ const OurServices = () => {
           depth
         </p>
       </div>
-      <div className=' flex-col gap-8 hidden md:flex-row flex-wrap md:justify-around xl:flex-nowrap lg:justify-between mac:justify-around items-center object-contain md:pt-[1.5rem] lg:pt-[3rem] mb-[7rem]'>
+      <div className='  gap-8 hidden md:flex md:flex-row flex-wrap md:justify-around xl:flex-nowrap lg:justify-between mac:justify-around items-center object-contain md:pt-[1.5rem] lg:pt-[2rem] mb-[7rem]'>
         <img
           src={about1}
           alt=''

@@ -5,19 +5,44 @@ import homecares from '../../Assets/homecares.png';
 const Services = () => {
   return (
     <section className='mac:max-w-[83rem] pb-[3rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[22rem] mx-auto '>
-      <div className='md:mt-[16rem] mt-[7rem] lg:mt-[18rem] xl:mt-[22rem] mac:mt-[26rem] flex flex-col gap-5  md:gap-8 lg:gap-0 md:flex-row md:justify-between'>
+      <div className='md:mt-[16rem] mt-[11.5rem] lg:mt-[18rem] xl:mt-[22rem] mac:mt-[26rem] flex flex-col gap-5  md:gap-8 lg:gap-0 md:flex-row md:justify-between'>
         <span>
-          <p className='text-[#098666] font-medium leading-[20px]'>
+          <p className='text-[#098666] text-center md:text-left font-medium leading-[20px]'>
             JOB SEEKERS - CARE SUPPORT WORKERS
           </p>
-          <h3 className='text-[#014470] text-3xl md:text-4xl special-font lg:text-5xl lg:leading-[35px] xl:text-6xl mac:text-7xl font-normal xl:leading-[45px] mac:leading-[60px]'>
+          <h3 className='text-[#014470] text-center md:text-left text-[42px] leading-[40px] md:text-4xl special-font lg:text-5xl lg:leading-[35px] xl:text-6xl mac:text-7xl font-normal xl:leading-[45px] mac:leading-[60px]'>
             Your path to a Rewarding
             <br />
             Recruitment in Care
           </h3>
-          <p className='pt-[1rem] md:pt-[2.5rem] text-[12px] w-[20.5rem] md:text-[12px] md:w-[20rem] lg:w-full flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal'>
-            Finding a job in care can prove a daunting experience especially for
+          <p className='pt-[26px] md:pt-[2.5rem] text-[14px] w-[20.5rem] md:text-[12px] md:w-[20rem] lg:w-full flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal lg:leading-[30px]'>
+            Embarking on a journey into the world of care can be a thrilling yet
             <br className='hidden lg:block' />
+            overwhelming experience, particularly for those venturing into this
+            <br className='hidden lg:block' />
+            sector for the first time. The array of checks and procedures
+            required to
+            <br className='hidden lg:block' /> become eligible for a care
+            position might seem intricate and protracted,
+            <br className='hidden lg:block' /> leaving you searching for
+            guidance and support.At our care home{' '}
+            <br className='hidden lg:block' />
+            recruitment agency UK, we pride ourselves on simplifying and
+            <br className='hidden lg:block' />
+            streamlining the process of finding your ideal care job. Our
+            approach is
+            <br className='hidden lg:block' /> transparent and straightforward,
+            ensuring you know precisely where <br className='hidden lg:block' />
+            you stand on your career path and standardising your suitability for
+            <br className='hidden lg:block' /> care work; we will become your
+            trusted companions throughout the <br className='hidden lg:block' />
+            recruitment process.Offering invaluable advice and guidance, we aim
+            to <br className='hidden lg:block' />
+            seamlessly usher you into the care industry, eliminating unnecessary
+            <br className='hidden lg:block' />
+            complications.
+            {/* Finding a job in care can prove a daunting experience especially for
+            
             those looking to enter the sector for the first time. There are a
             whole <br className='hidden lg:block' />
             host of checks and processes to complete before you are eligible to
@@ -40,7 +65,7 @@ const Services = () => {
             <br className='hidden lg:block' /> your hand through the entire
             recruitment process, giving you advice
             <br className='hidden lg:block' /> and guidance so you can enter
-            this sector with minimal fuss.
+            this sector with minimal fuss. */}
             {/* Fijanhealthcare offers a plethora of captivating and diverse nursing
             
             opportunities await you. Whether you seek to augment your work hours
@@ -72,9 +97,8 @@ const Services = () => {
             throughout the UK. Our comprehensive database is brimming with
             <br className='hidden lg:block' />
             exciting prospects, just waiting for your expertise to enrich the
-            lives of
-            <br className='hidden lg:block' />
-            those in need.
+            lives
+            <br className='hidden lg:block' /> of those in need.
           </p>
         </span>
         <article className='relative mt-7 lg:mt-9 xl:mt-11 mac:mt-14'>

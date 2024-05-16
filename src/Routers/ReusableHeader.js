@@ -13,7 +13,7 @@ const ReusableHeader = ({
         <p className='text-[#098666] text-sm md:text-xl pt-[8.5rem] md:pt-[7.5rem] lg:pt-[9rem] xl:pt-[9.5rem] text-center font-medium leading-[18px] md:leading-[20px]'>
           {text}
         </p>
-        <h2 className='text-center text-[42px] md:text-[5.5rem] lg:text-[6rem] xl:text-[7.5rem] text-[#014470] font-normal leading-[42px] md:leading-[4rem] lg:leading-[4.7rem] xl:leading-[4rem] special-font'>
+        <h2 className='text-center text-[42px] md:text-[5.5rem] lg:text-[6rem] xl:text-[6.2rem] text-[#014470] font-normal leading-[42px] md:leading-[4rem] lg:leading-[4.7rem] xl:leading-[4rem] special-font'>
           {title}
         </h2>
         <div className='relative flex flex-col items-center justify-center pt-[2.7rem] md:pt-[3rem] lg:pt-[2rem] xl:pt-[3rem]'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Frame from '../../Assets/Frame.png';
 import homecares from '../../Assets/homecares.png';
+import { HashLink as HashRouterLink } from 'react-router-hash-link';
 
 const Services = () => {
   return (
@@ -56,10 +57,16 @@ const Services = () => {
               healthcare. Commence <br className='hidden md:block' />
               your journey by clicking the “Register Today” button.
             </p>
-            <button className=' px-5 xl:px-7 py-2 md:text-sm lg:text-base flex justify-center items-center rounded-full bg-[#098666] text-white'>
-              {/* <HashRouterLink smooth to='#section1'> */} Register Now
-              {/* </HashRouterLink> */}
-            </button>
+
+            <HashRouterLink smooth to='#section1'>
+              {' '}
+              <div className='flex'>
+                <button className='flex-grow md:flex-grow-0 px-5 xl:px-7 py-2 md:text-sm lg:text-base rounded-full bg-[#098666] text-white'>
+                  Register Now
+                </button>
+              </div>
+            </HashRouterLink>
+            {/* <HashRouterLink smooth to='#section1'> */}
           </div>
           <img
             src={Frame}
@@ -79,13 +86,13 @@ const Services = () => {
           </div>
         </article>
       </div>
-      <div className='mac:mt-24 md:mt-[5rem] lg:mt-[7rem] mt-[5.5rem] flex flex-col gap-20 md:gap-20 lg:gap-0 justify-center md:flex-row md:justify-between items-center'>
+      <div className='mac:mt-24 md:mt-[5rem] lg:mt-[7rem] mt-[5.5rem] flex flex-col gap-20 md:gap-20 lg:gap-32 justify-center md:flex-row md:justify-between items-center'>
         <img
           src={homecares}
           alt=''
           className='h-[16rem] w-[20rem] md:w-[18.5rem] md:h-[15.5rem] lg:w-[27rem] lg:h-[23rem] xl:w-[35rem] mac:w-[42rem] xl:h-[28rem] mac:h-[32rem]'
         />
-        <div className='w-[19.5rem] md:w-[22rem] mx-auto xl:w-[35rem] lg:w-[27.5rem]'>
+        <div className='w-[19.5rem] md:w-[22rem] mx-auto xl:w-[30rem] lg:w-[27.5rem]'>
           <h4 className='text-[#014470] md:text-left text-center text-[27px] lg:text-[20px] xl:text-[24px] font-semibold leading-normal'>
             What to Expect from Us
           </h4>
