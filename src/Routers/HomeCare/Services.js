@@ -48,7 +48,6 @@ const Services = () => {
             <h5 className='text-[#014470] font-semibold text-[26px] text-center md:text-left leading-[40px] md:text-lg lg:text-[22px] xl:text-[32px] md:leading-[30px]'>
               Join us Today and Unveil your Future
             </h5>
-
             <p className='lg:py-[24px] flex justify-self-center pt-[48px] pb-[32px] font-medium leading-[30px] md:py-[18px] mac:py-[30px] text-[#26465B] w-[20.5rem] iphone:w-[22rem] mx-auto md:mx-0 lg:w-full md:text-[12px] text-[14px] lg:text-sm xl:text-base mac:text-lg md:font-normal md:leading-[20px] lg:leading-[30px]'>
               When you feel prepared, apprise us of a suitable
               <br className='hidden md:block' /> rendezvous to connect with one
@@ -57,15 +56,13 @@ const Services = () => {
               healthcare. Commence <br className='hidden md:block' />
               your journey by clicking the “Register Today” button.
             </p>
-
-            <HashRouterLink smooth to='#section1'>
-              {' '}
-              <div className='flex'>
-                <button className='flex-grow md:flex-grow-0 px-5 xl:px-7 py-2 md:text-sm lg:text-base rounded-full bg-[#098666] text-white'>
-                  Register Now
-                </button>
-              </div>
-            </HashRouterLink>
+            {/* <HashRouterLink smooth to='#section1'> */}{' '}
+            <div className='flex'>
+              <button className='flex-grow md:flex-grow-0 px-5 xl:px-7 py-2 md:text-sm lg:text-base rounded-full bg-[#098666] text-white'>
+                Register Now
+              </button>
+            </div>
+            {/* </HashRouterLink> */}
             {/* <HashRouterLink smooth to='#section1'> */}
           </div>
           <img

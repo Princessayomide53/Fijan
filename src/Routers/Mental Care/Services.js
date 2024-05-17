@@ -15,7 +15,7 @@ const Services = () => {
             <br />
             Recruitment in Care
           </h3>
-          <p className='pt-[26px] md:pt-[2.5rem] text-[14px] w-[20.5rem] md:text-[12px] md:w-[20rem] lg:w-full flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal lg:leading-[30px]'>
+          <p className='pt-[30px] md:pt-[2.5rem] leading-[28px] text-[14px] w-[20.5rem] md:text-[12px] md:w-[20rem] lg:w-full flex flex-wrap text-[#26465B] lg:text-sm xl:text-base mac:text-lg font-normal md:leading-normal lg:leading-[30px]'>
             Embarking on a journey into the world of care can be a thrilling yet
             <br className='hidden lg:block' />
             overwhelming experience, particularly for those venturing into this
@@ -79,7 +79,7 @@ const Services = () => {
           <h5 className='pt-[30px] pb-[18px] text-[#014470] md:text-[16.5px] lg:text-[22px] leading-normal font-semibold'>
             Experienced Caregiver Seeking New Horizon
           </h5>
-          <p className='text-[#26465B]  text-[12px] md:w-[21rem] lg:w-full lg:text-sm xl:text-base mac:text-lg font-normal leading-[20px] lg:leading-[30px]'>
+          <p className='text-[#26465B] leading-[28px] text-[14px] md:w-[21rem] lg:w-full lg:text-sm xl:text-base mac:text-lg font-normal md:leading-[20px] lg:leading-[30px]'>
             For seasoned caregivers seeking fresh challenges and new vistas, our
             <br className='hidden lg:block' />
             recruitment agency for care workers awaits your call. Discover the
@@ -103,11 +103,11 @@ const Services = () => {
         </span>
         <article className='relative mt-7 lg:mt-9 xl:mt-11 mac:mt-14'>
           <div>
-            <h5 className='text-[#014470] font-semibold md:text-lg lg:text-[22px] xl:text-[32px] leading-[30px]'>
+            <h5 className='text-[#014470] font-semibold text-[26px] text-center md:text-left leading-[40px] md:text-lg lg:text-[22px] xl:text-[32px] md:leading-[30px]'>
               Join us Today and Unveil your Future
             </h5>
 
-            <p className='lg:py-[24px] py-[12px] md:py-[18px] mac:py-[30px] text-[#26465B] w-[20rem] lg:w-full md:text-[12px] text-[12px] lg:text-sm xl:text-base mac:text-lg font-normal leading-[20px] lg:leading-[30px]'>
+            <p className='lg:py-[24px] flex justify-self-center pt-[48px] pb-[32px] font-medium leading-[30px] md:py-[18px] mac:py-[30px] text-[#26465B] w-[20.5rem] iphone:w-[22rem] mx-auto md:mx-0 lg:w-full md:text-[12px] text-[14px] lg:text-sm xl:text-base mac:text-lg md:font-normal md:leading-[20px] lg:leading-[30px]'>
               When you feel prepared, apprise us of a suitable
               <br /> rendezvous to connect with one of our esteemed
               <br /> nursing team members at Fijanhealthcare. Commence <br />
@@ -121,10 +121,10 @@ const Services = () => {
           <img
             src={Frame}
             alt=''
-            className='lg:mr-[6rem] ml-[0.7rem] mt-16 h-[120px] md:h-[155px] object-contain md:mr-[4rem] md:mt-24 lg:mt-16 xl:mt-[72px] mac:mt-32 xl:mr-[10rem]'
+            className='lg:mr-[6rem] ml-[0.7rem] mt-20 h-[120px] md:h-[150px] object-contain md:mr-[4rem] md:mt-[87px] lg:mt-16 xl:mt-[72px] mac:mt-32 xl:mr-[10rem]'
           />
-          <div className='bg-[#E1F8FF] w-[290px] md:h-[210px] mac:h-[250px]  rounded-lg px-[29px] lg:px-[44px] py-[1.2rem] lg:py-[1.5rem] xl:py-[2rem] mac:py-[2.5rem] absolute z-10 top-52 left-10 md:top-60 lg:top-[276px] xl:top-64 mac:top-80 md:right-1 lg:right-5 md:w-[300px] lg:w-[370px] xl:w-[414px]'>
-            <h2 className='text-[#012D4A] text-[22px]  md:text-[28px] mac:text-[32px] font-medium leading-normal'>
+          <div className='bg-[#E1F8FF] w-[300px] md:h-[210px] mac:h-[250px]  rounded-lg px-[29px] lg:px-[44px] py-[1.2rem] lg:py-[1.5rem] xl:py-[2rem] mac:py-[2.5rem] absolute z-10 top-[400px] left-10 md:top-60 lg:top-[276px] xl:top-64 mac:top-80 md:right-1 lg:right-5 md:w-[300px] lg:w-[370px] xl:w-[414px]'>
+            <h2 className='text-[#012D4A] text-[22px] md:text-[28px] mac:text-[32px] font-medium leading-normal'>
               Other Services
             </h2>
             <p className='pt-[24px] pb-[10px] border-b-2 border-[#71C8E4] text-[#098666] font-medium leading-normal md:text-[20px] mac:text-[24px]'>

@@ -19,7 +19,7 @@ const Hero = () => {
           <img
             src={employers}
             alt=''
-            className='object-contain w-[20rem] md:w-[42rem] mac:w-[80rem] lg:w-[55rem] mac:h-[30rem] xl:w-[70rem] xl:h-[28rem]'
+            className='object-contain w-[20rem] hidden md:block md:w-[42rem] mac:w-[80rem] lg:w-[55rem] mac:h-[30rem] xl:w-[70rem] xl:h-[28rem]'
           />
           <img
             src={employer}

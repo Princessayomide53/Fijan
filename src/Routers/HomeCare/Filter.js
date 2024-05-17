@@ -4,7 +4,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const Filter = () => {
   return (
-    <section className='my-[2rem] md:mt-[4rem] mb-[2rem] lg:my-[4rem] md:block py-[45px] md:h-[550px] xl:h-[445px] md:py-[60px] bg-[#E8FAFF]'>
+    <section className='my-[2rem] md:mt-[4rem] mb-[1rem] lg:my-[4rem] md:block py-[45px] md:h-[550px] xl:h-[445px] md:py-[60px] bg-[#E8FAFF]'>
       <h2 className='special-font text-[42px] leading-[35px] text-[#014470] text-center font-normal md:text-5xl xl:text-[72px] md:leading-[60px]'>
         Check our latest Care
         <br className='md:hidden' /> Support <br className='hidden md:block' />{' '}
@@ -25,10 +25,10 @@ const Filter = () => {
           <div className='relative hidden md:flex flex-1 xl:flex-none'>
             {' '}
             <select className='py-3 flex-1 xl:flex-none xl:w-[215px] pl-5 appearance-none border-2 border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
-              <option className=''>All Job Category</option>
-              <option className=''>Nurses</option>
-              <option className=''>Medical Doctors</option>
-              <option className=''>Care Support Worker</option>
+              <option className='text-[#26465B]'>All Job Category</option>
+              <option className='text-[#26465B]'>Nurses</option>
+              <option className='text-[#26465B]'>Medical Doctors</option>
+              <option className='text-[#26465B]'>Care Support Worker</option>
             </select>
             <IoIosArrowDown className='text-base md:text-xl  text-[#26465B] absolute right-5 top-[18px] z-20' />
           </div>
@@ -37,45 +37,45 @@ const Filter = () => {
         <div className='flex gap-3 md:gap-5 mt-8 xl:mt-0 flex-1 xl:flex-none'>
           <div className='relative flex md:hidden flex-1 xl:flex-none'>
             {' '}
-            <select className='py-3 flex-1 xl:flex-none xl:w-[215px] pl-[14px] md:pl-5 appearance-none border-2 border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
-              <option className=''>All Job Category</option>
-              <option className=''>Nurses</option>
-              <option className=''>Medical Doctors</option>
-              <option className=''>Care Support Worker</option>
+            <select className='py-3 flex-1 xl:flex-none xl:w-[215px] pl-[14px] md:pl-5 appearance-none border-2 border-[#E2E2E2] bg-white focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
+              <option className='text-[#26465B]'>All Job Category</option>
+              <option className='text-[#26465B]'>Nurses</option>
+              <option className='text-[#26465B]'>Medical Doctors</option>
+              <option className='text-[#26465B]'>Care Support Worker</option>
             </select>
             <IoIosArrowDown className=' md:text-xl text-base  text-[#26465B] absolute right-[14px] md:right-5 top-[18px] z-20' />
           </div>
           <div className='relative flex flex-1 xl:flex-none'>
             {' '}
-            <select className='py-3 flex-1 xl:flex-none pl-5 w-[175px] border-2 appearance-none border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
+            <select className='py-3 flex-1 xl:flex-none pl-5 w-[175px] border-2 appearance-none border-[#E2E2E2] focus:outline-blue-300 bg-white text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
               <option>All Job Type</option>
-              <option className=''>Nurses</option>
-              <option className=''>Medical Doctors</option>
-              <option className=''>Care Support Worker</option>
+              <option className='text-[#26465B]'>Full Time</option>
+              <option className='text-[#26465B]'>Per Time</option>
+              <option className='text-[#26465B]'>Contract</option>
             </select>
             <IoIosArrowDown className='text-base md:text-xl text-[#26465B] absolute right-5 top-[18px] z-20' />
           </div>
 
           <div className='relative hidden md:flex flex-1 xl:flex-none'>
             {' '}
-            <select className='py-3 xl:flex-none flex-1 xl:w-[210px] pl-5 border-2 appearance-none border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
+            <select className='py-3 xl:flex-none flex-1 xl:w-[210px] pl-5 border-2 appearance-none bg-white border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
               <option>All Job Location</option>
-              <option className=''>Toronto</option>
-              <option className=''>Florida</option>
-              <option className=''>New York</option>
-              <option className=''>LA</option>
+              <option className='text-[#26465B]'>Toronto</option>
+              <option className='text-[#26465B]'>Florida</option>
+              <option className='text-[#26465B]'>New York</option>
+              <option className='text-[#26465B]'>LA</option>
             </select>
             <IoIosArrowDown className='text-base md:text-xl text-[#26465B] absolute right-5 top-[18px] z-20' />
           </div>
         </div>
         <div className='relative mt-7 md:hidden flex flex-1 xl:flex-none'>
           {' '}
-          <select className='py-3 xl:flex-none flex-1 xl:w-[210px] pl-5 border-2 appearance-none border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
+          <select className='py-3 xl:flex-none flex-1 xl:w-[210px] pl-5 border-2 appearance-none bg-white border-[#E2E2E2] focus:outline-blue-300 text-[#26465B] text-sm md:text-lg font-semibold leading-normal'>
             <option>All Job Location</option>
-            <option className=''>Toronto</option>
-            <option className=''>Florida</option>
-            <option className=''>New York</option>
-            <option className=''>LA</option>
+            <option className='text-[#26465B]'>London</option>
+            <option className='text-[#26465B]'>Milton Keynes</option>
+            <option className='text-[#26465B]'>Northampton </option>
+            {/* <option className='text-[#26465B]'>LA</option> */}
           </select>
           <IoIosArrowDown className='text-base md:text-xl text-[#26465B] absolute right-5 top-[18px] z-20' />
         </div>

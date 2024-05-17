@@ -70,7 +70,7 @@ const Nurses = () => {
       <h1 className=' text-center special-font pt-[64px] md:pt-[50px] xl:pt-[75px] mac:px-0 text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-7xl mac:text-[3.5rem] text-[#014470] '>
         Our Services
       </h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 md:pb-[1rem] lg:pb-[2.5rem] lg:grid-cols-2 xl:grid-cols-3 gap-y-[50px] md:gap-y-[55px] lg:gap-y-[83px] gap-x-[20px] pt-[50px] md:pt-[46px] hover:bg-white'>
+      <div className='grid grid-cols-1 md:grid-cols-2 md:pb-[1rem] lg:pb-[2.5rem] lg:grid-cols-2 xl:grid-cols-3 gap-y-[50px] md:gap-y-[55px] lg:gap-y-[83px] gap-x-[20px] pt-[30px] pb-[50px] md:pt-[46px] hover:bg-white'>
         {jobs.map((cards) => (
           <div
             key={cards.id}
