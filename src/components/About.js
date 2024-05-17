@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className='mac:max-w-[83rem] md:max-w-[45rem] pt-[3.8rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto md:pt-[4rem] lg:pt-[6rem] mac:pt-[8rem] flex flex-col items-center justify-center gap-7 md:flex-row md:justify-around lg:justify-between xl:justify-around'>
       <div>
-        <h5 className='text-[#098666] text-center md:text-left text-lg md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
+        <h5 className='text-[#098666] text-center pb-2 md:pb-0 md:text-left text-lg md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
           ABOUT US
         </h5>
         <h2 className='special-font text-[#014470] text-[45px] iphone:text-[45px] text-center md:text-left leading-[40px] md:text-3xl lg:text-5xl mac:text-7xl xl:text-6xl font-normal md:leading-normal lg:leading-[3.8rem]'>

@@ -32,14 +32,14 @@ const Services = () => {
   ];
   return (
     <section className='w-full mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] lg:max-w-[60rem] pt-[3.5rem] mx-auto md:pt-[4rem] xl:pt-[5rem] mac:pt-[6rem]'>
-      <h5 className='text-[#098666] uppercase text-lg text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
+      <h5 className='text-[#098666] uppercase text-lg pb-1 md:pb-0 text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
         Our services
       </h5>
 
       <h2 className='special-font text-[#014470] text-[48px] leading-[40px] text-center md:text-[3rem] lg:text-[4.5rem] font-normal md:leading-tight md:-mt-2 lg:leading-[4rem]'>
         What we do
       </h2>
-      <p className='text-center text-sm md:text-[13px] lg:text-[20px] leading-[20px] lg:leading-[30px] pt-[18px] md:px-16 lg:px-0 text-[#014470] md:pt-[25px] lg:pt-[33px] font-normal'>
+      <p className='text-center text-sm md:text-[13px] lg:text-[20px] leading-[20px] lg:leading-[30px] pt-[24px] md:px-16 lg:px-0 text-[#014470] md:pt-[25px] lg:pt-[33px] font-normal'>
         Your Trusted Partner in Healthcare Recruitment. As a specialised
         healthcare recruitment agency, We are commited
         <br className='hidden lg:block' /> to provide exceptional staffing
