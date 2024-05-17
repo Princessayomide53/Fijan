@@ -12,7 +12,7 @@ const ContactPage = () => {
         to hearing from you.
       </h5>
       <div className='mac:max-w-[73rem] bg-white md:max-w-[38rem] xl:max-w-[65rem] lg:max-w-[53rem] pro:max-w-[52rem] max-w-[20rem] iphone:max-w-[22rem] mx-auto'>
-        <h5 className='text-[#098666] text-base text-center md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
+        <h5 className='text-[#098666] text-base pb-[12px] md:pb-0 text-center md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
           SEND US A MESSAGE
         </h5>
         <h2 className='special-font text-center text-[42px] pt-[7px] md:pt-0 leading-[40px] text-[#014470] md:text-3xl lg:text-5xl mac:text-7xl xl:text-6xl font-normal md:leading-tight lg:leading-[3.8rem]'>

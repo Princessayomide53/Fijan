@@ -32,7 +32,7 @@ const Services = () => {
   ];
   return (
     <section className='w-full mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] lg:max-w-[60rem] pt-[3.5rem] mx-auto md:pt-[4rem] xl:pt-[5rem] mac:pt-[6rem]'>
-      <h5 className='text-[#098666] uppercase text-lg pb-1 md:pb-0 text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
+      <h5 className='text-[#098666] uppercase text-lg pb-[12px] md:pb-0 text-center md:text-base lg:text-[1.25rem] font-semibold leading-[1.25rem]'>
         Our services
       </h5>
 

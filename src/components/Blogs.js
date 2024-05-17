@@ -137,7 +137,7 @@ const Blogs = () => {
       </span> */}
       </div>
       <div className='block md:hidden'>
-        <h5 className='text-center text-[#098666] pb-2 md:pb-0 text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] '>
+        <h5 className='text-center text-[#098666] pb-[12px] md:pb-0 text-lg md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] '>
           NAVIGATING HEALTHCARE INSIGHTS
         </h5>
         <h1 className='text-center md:pb-[2.8rem] pb-[44.1px] lg:pb-[3.5rem] text-[45px] leading-[40px] special-font md:text-4xl md:leading-tight lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-7xl text-[#014470] '>

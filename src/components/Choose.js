@@ -59,7 +59,7 @@ const Choose = () => {
   ];
   return (
     <section className='mac:max-w-[78rem] md:max-w-[45rem] lg:max-w-[52rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.5rem] md:pt-[4rem] xl:pt-[6rem] mac:pt-[7rem]'>
-      <h6 className='text-[#098666] text-lg pb-2 md:pb-0 md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center'>
+      <h6 className='text-[#098666] text-lg pb-[12px] md:pb-0 md:text-base lg:text-[1.2rem] xl:text-[1.38rem] font-semibold leading-[1.25rem] text-center'>
         WHY CHOOSE US
       </h6>
       <h3 className='text-[#014470] text-[45px] leading-[40px] md:text-4xl lg:leading-tighter text-center lg:text-5xl xl:text-6xl mac:text-7xl special-font font-normal xl:leading-[3.8rem]'>

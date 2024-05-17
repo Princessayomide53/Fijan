@@ -10,7 +10,7 @@ const ReusableHeader = ({
   return (
     <section className='bg-gradient-to-r from-[#ffffff] to-[#71C8E4] h-[21rem] w-full md:h-[21rem] lg:h-[22.5rem] xl:h-[27rem]'>
       <div className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto '>
-        <p className='text-[#098666] text-sm md:text-xl pt-[8.5rem] md:pt-[7.5rem] lg:pt-[9rem] xl:pt-[9.5rem] text-center font-medium leading-[18px] md:leading-[20px]'>
+        <p className='text-[#098666] text-sm pb-[12px] md:pb-0 md:text-xl pt-[8.5rem] md:pt-[7.5rem] lg:pt-[9rem] xl:pt-[9.5rem] text-center font-medium leading-[18px] md:leading-[20px]'>
           {text}
         </p>
         <h2 className='text-center text-[42px] md:text-[5.5rem] lg:text-[6rem] xl:text-[6.2rem] text-[#014470] font-normal leading-[42px] md:leading-[4rem] lg:leading-[4.7rem] xl:leading-[4rem] special-font'>

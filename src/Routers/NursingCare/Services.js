@@ -8,7 +8,7 @@ const Services = () => {
     <section className='mac:max-w-[83rem] pb-[3rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[22rem] mx-auto '>
       <div className='md:mt-[16rem] mt-[11.5rem] lg:mt-[18rem] xl:mt-[22rem] mac:mt-[26rem] flex flex-col gap-5  md:gap-8 lg:gap-0 md:flex-row md:justify-between'>
         <span>
-          <p className='text-[#098666] text-center md:text-left font-medium leading-[20px]'>
+          <p className='text-[#098666] text-center pb-[12px] md:pb-0 md:text-left font-medium leading-[20px]'>
             JOB SEEKERS - MEDICAL DOCTORS
           </p>
           <h3 className='text-[#014470] text-center md:text-left text-3xl md:text-4xl special-font lg:text-5xl lg:leading-[35px] xl:text-6xl mac:text-7xl font-normal xl:leading-[45px] mac:leading-[60px]'>
