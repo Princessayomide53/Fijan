@@ -6,7 +6,7 @@ import about4 from '../../Assets/about4.png';
 
 const OurServices = () => {
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[18rem] xl:mt-[24rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[18rem] xl:mt-[24rem]'>
       <h5 className='text-[#098666] text-center md:text-left text-sm leading-[20px] md:text-base lg:text-[1.58rem] font-semibold md:leading-[1.58rem]'>
         OUR SERVICES
       </h5>

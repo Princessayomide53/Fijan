@@ -10,7 +10,7 @@ const Filter = () => {
         <br className='md:hidden' /> Support <br className='hidden md:block' />{' '}
         Worker Jobs
       </h2>
-      <div className='flex flex-col xl:flex-row xl:justify-evenly pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[104px] mac:max-w-[83rem]  md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[50rem] pro:max-w-[52rem] max-w-[22rem]  mx-auto'>
+      <div className='flex flex-col xl:flex-row xl:justify-evenly pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[104px] mac:max-w-[83rem]  md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[50rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem]  mx-auto'>
         <article className='flex gap-7 flex-1 xl:flex-none'>
           {' '}
           <div className='relative flex flex-1 xl:flex-none'>

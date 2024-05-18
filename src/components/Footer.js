@@ -9,7 +9,7 @@ import { FaArrowUp } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <section className='bg-[#012D4A] h-[62.56rem] md:h-[34.56rem] md:mt-[2rem] lg:mt-[3.5rem]'>
+    <section className='bg-[#012D4A] h-[58.56rem] md:h-[34.56rem] md:mt-[2rem] lg:mt-[3.5rem]'>
       <article className='md:border-b-2 border-[#005773] px-4 iphone:px-0'>
         <div className='mac:max-w-[83rem] md:max-w-[45rem] flex gap-3 md:gap-0 flex-col md:flex-row md:justify-between lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[2rem] md:py-[1rem]'>
           <div className='flex gap-3 md:gap-5 items-center'>
@@ -22,11 +22,23 @@ const Footer = () => {
             <h2 className='text-[18px] md:text-[13px] lg:text-[15px] mac:text-lg'>
               About us
             </h2>
+
             <p className='text-white pt-3 text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-[28px]'>
               At Fijan, we are dedicated to
               <br /> providing exquisite, personalized
               <br /> healthcare services.
             </p>
+            <div className='space-y-[16px] pt-[15px] md:hidden'>
+              <h3 className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-semibold leading-normal'>
+                Socials
+              </h3>
+              <div className='text-white flex md:text-xl text-2xl lg:text-2xl space-x-[16px]'>
+                <FiFacebook />
+                <FaXTwitter />
+                <FaInstagram />
+                <FaPinterest />
+              </div>
+            </div>
           </div>
           <div className='flex relative my-[2rem]'>
             <div className='absolute md:-top-5 top-0 md:right-[2rem] xl:right-3 mac:right-0'>
@@ -55,18 +67,40 @@ const Footer = () => {
                 <br /> providing exquisite, personalized
                 <br /> healthcare services.
               </p>
+
+              <div className='space-y-[16px] pt-[32px]'>
+                <h3 className='text-white text-[16px] md:text-[13px] lg:text-[15px] mac:text-lg font-semibold leading-normal'>
+                  Socials
+                </h3>
+                <div className='text-white flex md:text-xl text-xl lg:text-2xl space-x-[16px]'>
+                  <FiFacebook />
+                  <FaXTwitter />
+                  <FaInstagram />
+                  <FaPinterest />
+                </div>
+              </div>
             </div>
-            <div className='space-y-[16px] pt-[1.5rem] md:pt-0 text-white'>
-              <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-medium leading-normal'>
-                Home
-              </p>
-              <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-medium leading-normal'>
-                Careers
-              </p>
-              <p className='text-white flex gap-3 text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-medium leading-normal'>
-                Services <IoIosArrowDown className='mt-[6px]' />
-              </p>
-              <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
+            <span className='flex justify-between md:contents'>
+              <div className='space-y-[16px] pt-[1.5rem] md:pt-0 text-white'>
+                <p className='text-white text-[16px]  md:text-[16px] lg:text-[16px] mac:text-lg font-semibold leading-normal'>
+                  Quick links
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Home
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  About us
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Employers
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Contact
+                </p>
+                <p className='text-white flex gap-3 text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Job Seekers <IoIosArrowDown className='mt-[6px]' />
+                </p>
+                {/* <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
                 HomeCare
               </p>
               <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
@@ -74,6 +108,63 @@ const Footer = () => {
               </p>
               <p className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
                 Mental home care
+              </p> */}
+              </div>
+
+              <div className='space-y-[16px] pt-[1.5rem] md:pt-0 text-white'>
+                <p className='text-white text-[16px]  md:text-[16px] lg:text-[16px] mac:text-lg font-semibold leading-normal'>
+                  Support
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Privacy policy
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  FAQ
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Condition of use
+                </p>
+                <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                  Cookies policy
+                </p>
+              </div>
+            </span>
+            <div className='space-y-[16px] pt-[1.5rem] hidden md:pt-0 text-white'>
+              <p className='text-white text-[16px]  md:text-[16px] lg:text-[16px] mac:text-lg font-semibold leading-normal'>
+                Quick links
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Home
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                About us
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Employers
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Contact
+              </p>
+              <p className='text-white flex gap-3 text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Job Seekers <IoIosArrowDown className='mt-[6px]' />
+              </p>
+            </div>
+
+            <div className='space-y-[16px] hidden pt-[1.5rem] md:pt-0 text-white'>
+              <p className='text-white text-[16px]  md:text-[16px] lg:text-[16px] mac:text-lg font-semibold leading-normal'>
+                Support
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Privacy policy
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                FAQ
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Condition of use
+              </p>
+              <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
+                Cookies policy
               </p>
             </div>
             <div className='space-y-[16px]'>
@@ -81,34 +172,28 @@ const Footer = () => {
                 Contact
               </h3>
 
-              <p className='text-white flex gap-2 items-center text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
+              <p className='text-white flex gap-2 items-center text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
                 <IoLocationOutline className='md:text-xl text-2xl lg:text-2xl' />
                 Address: 1564 The birminham
                 <br /> road, United Kingdom
               </p>
-              <p className='text-white flex gap-2 items-center text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
+              <p className='text-white flex gap-2 items-center text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
                 <MdOutlineEmail className='md:text-xl text-2xl lg:text-2xl' />
                 Email: hello@fijan.co.uk
               </p>
-              <p className='text-white flex gap-2 items-center text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-normal leading-normal'>
+              <p className='text-white flex gap-2 items-center text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
                 <MdOutlineLocalPhone className='md:text-xl text-2xl lg:text-2xl' />
                 Phone: +442200567789
               </p>
             </div>
-            <div className='space-y-[16px]'>
-              <h3 className='text-white text-[16px]  md:text-[13px] lg:text-[15px] mac:text-lg font-semibold leading-normal'>
-                Socials
-              </h3>
-              <div className='text-white flex md:text-xl text-2xl lg:text-2xl space-x-[16px]'>
-                <FiFacebook />
-                <FaXTwitter />
-                <FaInstagram />
-                <FaPinterest />
-              </div>
-            </div>
           </div>
         </div>
       </article>
+
+      <p className='text-center hidden md:block font-normal mt-7 text-[#F0F0F0] text-xs leading-normal'>
+        {' '}
+        Copyright © 2023 Fijan
+      </p>
     </section>
   );
 };

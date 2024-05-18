@@ -6,7 +6,7 @@ const Mission = () => {
       <p className='text-center pb-[25px] md:pb-[44px] text-[#014470] special-font text-[42px] md:text-[5.5rem] lg:text-[6.5rem] xl:text-[72px] font-normal leading-[70px]'>
         Our philosophy
       </p>{' '}
-      <p className=' text-justify md:text-left md:max-w-[75rem] mx-auto text-sm leading-[25px] px-7 md:px-0 pb-[45px] md:pb-[80px] md:text-xs text-[#26465B] lg:text-base xl:text-[20px] font-normal md:leading-[20px] lg:leading-[30px]'>
+      <p className=' text-justify md:text-left md:max-w-[75rem] mx-auto text-sm leading-[25px] px-4 md:px-0 pb-[45px] md:pb-[80px] md:text-xs text-[#26465B] lg:text-base xl:text-[20px] font-normal md:leading-[20px] lg:leading-[30px]'>
         {' '}
         Over the years, we have realised that the fabric of the care industry’s
         success is interwoven with the calibre and
@@ -33,7 +33,7 @@ const Mission = () => {
         <br className='hidden md:block' /> we are steadfastly committed to
         ensuring that your recruitment endeavors succeed immediately.
       </p>
-      <div className='flex flex-row justify-around mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[22rem] mx-auto'>
+      <div className='flex flex-row justify-around mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto'>
         <div className='flex flex-col md:flex-row gap-[3rem] md:gap-[3.5rem] lg:gap-[5rem] xl:pt-0'>
           <div>
             <span className='flex gap-3 md:gap-5'>

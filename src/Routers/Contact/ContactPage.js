@@ -11,7 +11,7 @@ const ContactPage = () => {
         carers <br className='hidden mac:block' /> recruitment. We look forward
         to hearing from you.
       </h5>
-      <div className='mac:max-w-[73rem] bg-white md:max-w-[38rem] xl:max-w-[65rem] lg:max-w-[53rem] pro:max-w-[52rem] max-w-[20rem] iphone:max-w-[22rem] mx-auto'>
+      <div className='mac:max-w-[73rem] bg-white md:max-w-[38rem] xl:max-w-[65rem] lg:max-w-[53rem] pro:max-w-[52rem] max-w-[20.15rem] iphone:max-w-[22rem] mx-auto'>
         <h5 className='text-[#098666] text-base pb-[12px] md:pb-0 text-center md:text-base lg:text-[1.1rem] xl:text-[1.4rem] font-semibold leading-[1.25rem]'>
           SEND US A MESSAGE
         </h5>

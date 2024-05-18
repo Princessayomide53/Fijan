@@ -49,7 +49,7 @@ const Nurses = () => {
     setHover(null);
   };
   return (
-    <section className='mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[73rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[9.5rem] md:pt-[3rem] lg:pt-[5rem] xl:pt-[11rem] mac:pt-[9rem]'>
+    <section className='mac:max-w-[80rem] md:max-w-[45rem] lg:max-w-[57rem] xl:max-w-[73rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[9.5rem] md:pt-[3rem] lg:pt-[5rem] xl:pt-[11rem] mac:pt-[9rem]'>
       {/* <h1 className=' text-center md:text-left special-font md:px-2 xl:px-7 mac:px-0 text-3xl md:text-4xl leading-normal lg:leading-[3.85rem] font-normal lg:text-5xl xl:text-6xl mac:text-[3.5rem] text-[#014470] '>
         Registered General Nurse - RGN
       </h1> */}
@@ -76,7 +76,7 @@ const Nurses = () => {
             key={cards.id}
             onMouseEnter={() => handleMouseEnter(cards.id)}
             onMouseLeave={handleMouseLeave}
-            className='w-[300px] iphone:w-[340px] mx-auto md:w-[340px] md:h-[622px] lg:w-[413px] xl:w-[380px] mac:w-[413px] lg:h-[662px] bg-[#E1F8FF] py-[32px] px-[18px] md:px-[25px] transition-colors duration-300 ease-in-out hover:bg-white hover:shadow-md hover:shadow-[#00000026]'
+            className='w-[320px] iphone:w-[340px] mx-auto md:w-[340px] md:h-[622px] lg:w-[413px] xl:w-[380px] mac:w-[413px] lg:h-[662px] bg-[#E1F8FF] py-[32px] px-[18px] md:px-[25px] transition-colors duration-300 ease-in-out hover:bg-white hover:shadow-md hover:shadow-[#00000026]'
           >
             {hover === cards.id ? (
               <div className=' bg-[#0171BB] w-10 h-10 flex justify-center items-center rounded-full'>

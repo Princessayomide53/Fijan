@@ -25,7 +25,7 @@ const Values = () => {
     },
   ];
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[22rem] mx-auto pt-[3.6rem] md:pt-[4rem] lg:pt-[5rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] lg:max-w-[60rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto pt-[3.6rem] md:pt-[4rem] lg:pt-[5rem]'>
       <h5 className='text-[#098666] pb-[12px] md:pb-0 text-center text-base lg:text-[1.38rem] font-semibold leading-[1.58rem]'>
         OUR CORE VALUES
       </h5>
