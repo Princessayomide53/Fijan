@@ -113,7 +113,7 @@ const Consultation = () => {
               </label>
               <textarea
                 name='name'
-                className='border-2 border-[#E2E2E2] pl-5 focus:outline-blue-300 bg-[#E8FAFF] w-full h-[2.5rem] md:h-[12rem]'
+                className='border-2 border-[#E2E2E2] pl-5 focus:outline-blue-300 bg-[#E8FAFF] w-full h-[8rem] md:h-[12rem]'
               />
             </div>
 

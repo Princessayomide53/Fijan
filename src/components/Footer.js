@@ -5,6 +5,7 @@ import { FaXTwitter, FaInstagram, FaPinterest } from 'react-icons/fa6';
 import { IoLocationOutline } from 'react-icons/io5';
 import { MdOutlineEmail, MdOutlineLocalPhone } from 'react-icons/md';
 import { IoIosArrowDown } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 import { FaArrowUp } from 'react-icons/fa6';
 
 const Footer = () => {
@@ -86,16 +87,16 @@ const Footer = () => {
                   Quick links
                 </p>
                 <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                  Home
+                  <Link to='/'> Home</Link>
                 </p>
                 <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                  About us
+                  <Link to='/about'> About us</Link>
                 </p>
                 <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                  Employers
+                  <Link to='/employers'> Employers</Link>
                 </p>
                 <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                  Contact
+                  <Link to='/contact'> Contact</Link>
                 </p>
                 <p className='text-white flex gap-3 text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
                   Job Seekers <IoIosArrowDown className='mt-[6px]' />
@@ -134,16 +135,16 @@ const Footer = () => {
                 Quick links
               </p>
               <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                Home
+                <Link to='/'> Home</Link>
               </p>
               <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                About us
+                <Link to='/about'> About us</Link>
               </p>
               <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                Employers
+                <Link to='/employers'> Employers</Link>
               </p>
               <p className='text-white text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
-                Contact
+                <Link to='/contact'> Contact</Link>
               </p>
               <p className='text-white flex gap-3 text-[14px]  md:text-[13px] lg:text-[14px] mac:text-base font-normal leading-normal'>
                 Job Seekers <IoIosArrowDown className='mt-[6px]' />

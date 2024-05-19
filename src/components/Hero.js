@@ -1,4 +1,5 @@
 import React from 'react';
+import care2 from '../Assets/care2.png';
 import care from '../Assets/care.png';
 import '../App.css';
 import { Link } from 'react-router-dom';
@@ -13,7 +14,7 @@ const Hero = () => {
             Welcome to Fijan
             <br /> Healthcare
           </h2>{' '}
-          <p className='text-[#014470] pt-7 md:pt-4 lg:pt-9 md:w-[20rem] lg:w-[26rem] xl:w-[32rem] mac:w-[36.5rem] md:text-[11.1px] lg:text-[14px] xl:text-[1.1rem] mac:text-[1.257rem] font-normal lg:leading-normal xl:leading-[1.75rem]'>
+          <p className='text-[#014470] pt-7 md:pt-4 lg:pt-9 md:w-[20rem] lg:w-[26rem] xl:w-[32rem] mac:w-[33.5rem] md:text-[11.1px] lg:text-[14px] xl:text-[1.1rem] mac:text-[1.257rem] font-normal lg:leading-normal xl:leading-[1.75rem]'>
             Your Trusted Partner in Healthcare Recruitment. As a
             <br className='md:block hidden' /> specialised healthcare
             recruitment agency, We are commited
@@ -33,6 +34,11 @@ const Hero = () => {
             alt=''
             className='mac:w-[45.083rem] hidden md:flex w-[20rem] h-[21.5rem] -mt-[1.5rem] md:-mt-[0rem] md:w-[23.5rem] md:h-[29.5rem] lg:w-[35rem] lg:h-[40rem] xl:w-[44.083rem]  xl:h-[50.525rem] lg:mt-[0.5rem] xl:-mt-[2.5rem]'
           />
+          {/* <img
+            src={care2}
+            alt=''
+            className='mac:w-[47.083rem] hidden md:flex w-[20rem] h-[21.5rem] -mt-[1.5rem] md:-mt-[0rem] md:w-[23.5rem] md:h-[29.5rem] lg:w-[35rem] lg:h-[40rem] xl:w-[44.083rem]  xl:h-[37.525rem] lg:mt-[0.5rem] xl:mt-[6.5rem]'
+          /> */}
         </div>
       </div>
     </section>

@@ -67,7 +67,7 @@ const Jobs = () => {
               {job.description}
             </p>
             <p className='text-white lg:pt-[0.8rem] pt-[0.5rem] xl:pt-[1rem] underline text-[16px] md:text-sm xl:text-base font-light leading-[1.35rem]'>
-              {job.details}
+              <Link to='/jobs'>{job.details}</Link>
             </p>
           </div>
         ))}

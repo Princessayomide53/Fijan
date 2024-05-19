@@ -35,8 +35,9 @@ const Nav = () => {
               className='h-[2rem] xl:w-[39.301px] lg:w-[35.301px] lg:h-[45px] xl:h-[49px]'
             />
           </Link>
+
           <h2 className='text-[#0171BB] md:text-[1.5rem] lg:text-[1.5rem] xl:text-[2rem] mac:text-[2.23rem] font-bold leading-[28.697px]'>
-            FIJAN
+            <Link to='/'> FIJAN</Link>
           </h2>
         </div>
         <ul className='lg:flex hidden xl:space-x-[1.5rem] lg:space-x-[1.4rem] mac:space-x-[3rem] lg:mt-4 xl:mt-3 mt-2 z-20'>

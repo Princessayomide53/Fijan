@@ -8,6 +8,7 @@ import Layout from './Layout';
 import Homecare from '../Routers/HomeCare/Homecare';
 import Nurses from '../Routers/NursingCare/Nurses';
 import Mental from '../Routers/Mental Care/Mental';
+import AllJobs from '../Routers/AllJobs';
 
 const RouterComponent = () => {
   return (
@@ -60,6 +61,14 @@ const RouterComponent = () => {
           element={
             <Layout>
               <Mental />
+            </Layout>
+          }
+        />
+        <Route
+          path='/jobs'
+          element={
+            <Layout>
+              <AllJobs />
             </Layout>
           }
         />

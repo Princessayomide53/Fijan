@@ -10,6 +10,7 @@ import Blogs from './Blogs';
 import Settle from './Settle';
 import Consultation from './Consultation';
 import Footer from './Footer';
+import Scroll from './Scroll';
 
 const Home = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const Home = () => {
       <Blogs />
       <Settle />
       <Frequent />
+      <Scroll />
       <Footer />
     </>
   );
