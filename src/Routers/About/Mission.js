@@ -2,11 +2,11 @@ import React from 'react';
 
 const Mission = () => {
   return (
-    <section className='bg-[#E1F8FF] w-full h-[70.8rem] md:h-[39.4875rem] lg:h-[46.5875rem] xl:h-[48.1875rem] py-[1.7rem] md:py-[2rem] lg:py-[3rem] xl:py-[2rem]'>
-      <p className='text-center pb-[25px] md:pb-[44px] text-[#014470] special-font text-[42px] md:text-[5.5rem] lg:text-[6.5rem] xl:text-[72px] font-normal leading-[70px]'>
+    <section className='bg-[#E1F8FF] w-full h-[70.8rem] md:h-[41.7875rem] lg:h-[47.7875rem] xl:h-[48.1875rem] py-[1.7rem] md:py-[2rem] lg:py-[3rem] xl:py-[2rem]'>
+      <p className='text-center pb-[25px] md:pb-[44px] text-[#014470] special-font text-[42px] md:text-[55px] lg:text-[65px] xl:text-[72px] font-normal leading-[70px]'>
         Our philosophy
       </p>{' '}
-      <p className=' text-justify md:text-left md:max-w-[75rem] mx-auto text-sm leading-[25px] px-4 md:px-0 pb-[45px] md:pb-[80px] md:text-xs text-[#26465B] lg:text-base xl:text-[20px] font-normal md:leading-[20px] lg:leading-[30px]'>
+      <p className='max-w-[20.5rem] iphone:max-w-[22rem] text-justify md:text-left md:max-w-[42rem] lg:max-w-[57rem] xl:max-w-[70rem] mac:max-w-[75rem] mx-auto text-sm leading-[25px]  md:px-0 pb-[45px] md:pb-[80px] md:text-xs text-[#26465B] lg:text-base xl:text-[20px] font-normal md:leading-[20px] lg:leading-[30px]'>
         {' '}
         Over the years, we have realised that the fabric of the care industry’s
         success is interwoven with the calibre and
@@ -33,8 +33,8 @@ const Mission = () => {
         <br className='hidden md:block' /> we are steadfastly committed to
         ensuring that your recruitment endeavors succeed immediately.
       </p>
-      <div className='flex flex-row justify-around mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto'>
-        <div className='flex flex-col md:flex-row gap-[3rem] md:gap-[3.5rem] lg:gap-[5rem] xl:pt-0'>
+      <div className='flex flex-row justify-between mac:justify-around md:max-w-[42rem] lg:max-w-[57rem] xl:max-w-[70rem] mac:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto'>
+        <div className='flex flex-col md:flex-row gap-[3rem] md:gap-[3.5rem] lg:gap-[5rem] xl:gap-[8rem]  xl:pt-0'>
           <div>
             <span className='flex gap-3 md:gap-5'>
               <div className='bg-[#0171BB] w-[45px] lg:w-[55px] h-[25px] flex justify-center items-center'>
@@ -56,7 +56,7 @@ const Mission = () => {
                 OUR MISSION
               </h4>
             </span>
-            <p className='text-[#26465B] flex-wrap leading-[28px] text-sm lg:text-base xl:text-[1.25rem] lg:w-[23rem] text-justify xl:w-[34.5rem] font-normal whitespace-pre-wrap lg:leading-[1.9rem]'>
+            <p className='text-[#26465B] flex-wrap leading-[28px] text-sm lg:text-base xl:text-[1.25rem] lg:w-[25rem] text-justify xl:w-[30rem] mac:w-[34.5rem] font-normal whitespace-pre-wrap lg:leading-[1.9rem]'>
               To transform care recruitment through unwavering dedication to
               excellence, matching the finest care professionals with employers,
               and elevating the care sector’s standards to unprecedented
@@ -85,7 +85,7 @@ const Mission = () => {
                 OUR VISION
               </h4>
             </span>
-            <p className='text-[#26465B] flex-wrap leading-[28px] text-sm text-justify lg:w-[23rem] lg:text-base xl:text-[1.25rem] xl:w-[34.5rem] whitespace-pre-wrap font-normal lg:leading-[1.9rem]'>
+            <p className='text-[#26465B] flex-wrap leading-[28px] text-sm text-justify lg:w-[25rem] lg:text-base xl:text-[1.25rem] xl:w-[30rem] mac:w-[34.5rem] whitespace-pre-wrap font-normal lg:leading-[1.9rem]'>
               To envision a future where the care sector thrives on a foundation
               of exceptional talent, seamless recruitment, and a profound sense
               of purpose – enriching lives, one caregiver at a time.

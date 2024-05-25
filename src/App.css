@@ -312,3 +312,43 @@ body {
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 } */
+
+.show {
+  /* display: block; */
+  animation: slideIn 1s forwards;
+}
+
+.hide {
+  animation: slideOut 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.nav-menu {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Adjust timing function */
+  transform: translateY(-100%);
+}
+
+.nav-menu.open {
+  transform: translateY(0);
+}
+
+.nav-menu.closed {
+  transform: translateY(-100%);
+}

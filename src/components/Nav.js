@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { HashLink as HashRouterLink } from 'react-router-hash-link';
+import '../../src/App.css';
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -26,7 +27,11 @@ const Nav = () => {
     <section
       className={`bg-gradient-to-r z-[100] fixed py-[2.6rem] lg:py-14 from-[#ffffff] to-[#71C8E4] w-full `}
     >
-      <nav className='mac:max-w-[83rem] absolute top-7 lg:top-8 z-50 left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between'>
+      <nav
+        className={`mac:max-w-[83rem] absolute top-7 lg:top-8 ${
+          nav ? 'z-20' : 'z-50'
+        } left-0 right-0 md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] lg:max-w-[60rem] mx-auto flex justify-between`}
+      >
         <div className='flex items-center gap-2 mt-2'>
           <Link to='/'>
             <img
@@ -157,7 +162,11 @@ const Nav = () => {
         </div>{' '}
       </nav>{' '}
       {nav && (
-        <div className='w-full fixed top-[5rem] left-0 h-screen z-20  bg-gradient-to-r from-[#ffffff] to-[#71C8E4]'>
+        <div
+          className={`w-full fixed ${
+            nav ? 'show z-40' : 'hide'
+          } left-0 h-screen top-[5rem] z-20 bg-gradient-to-r from-[#ffffff] to-[#71C8E4] `}
+        >
           <ul className='flex flex-col space-y-[3rem] mt-5 p-7'>
             <li
               onClick={closeNav}
@@ -182,7 +191,7 @@ const Nav = () => {
                 <IoIosArrowDown className='md:text-2xl' />
               )}
               {isOpen && (
-                <div className='absolute top-10 md:top-12 left-0 w-full h-[150px] bg-white shadow-lg rounded-md'>
+                <div className='absolute top-10 md:top-12 left-0 w-full h-[136.5px] bg-white shadow-lg rounded-md'>
                   <ul className='space-y-[13px]'>
                     <li
                       className={`pl-5 pt-2 hover:bg-[#098666] hover:w-full hover:py-1 hover:text-white`}
@@ -225,6 +234,12 @@ const Nav = () => {
               className='text-[#014470] text-xl hover:text-[#098666]'
             >
               <Link to='/employers'>Employers</Link>
+            </li>
+            <li className='flex-1 py-3 mt-auto flex justify-center items-center rounded-full bg-[#098666] text-white'>
+              <HashRouterLink smooth to='#section1'>
+                {' '}
+                Register Now
+              </HashRouterLink>
             </li>
           </ul>
         </div>

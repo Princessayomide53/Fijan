@@ -6,7 +6,7 @@ import about4 from '../../Assets/about4.png';
 
 const OurServices = () => {
   return (
-    <section className='mac:max-w-[83rem] md:max-w-[45rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[18rem] xl:mt-[24rem]'>
+    <section className='mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[75rem] pro:max-w-[52rem] max-w-[20.5rem] iphone:max-w-[22rem] mx-auto md:mt-[13rem] mt-[10rem] lg:mt-[18rem] xl:mt-[24rem]'>
       <h5 className='text-[#098666] text-center md:text-left text-sm leading-[20px] md:text-base lg:text-[1.58rem] font-semibold md:leading-[1.58rem]'>
         OUR SERVICES
       </h5>
@@ -33,7 +33,7 @@ const OurServices = () => {
           />
         </div>
 
-        <p className='text-[#26465B] flex-wrap text-justify text-sm lg:text-[1.1rem] md:px-5 lg:px-3 whitespace-pre-wrap font-normal leading-[1.75rem]'>
+        <p className='text-[#26465B] flex-wrap text-justify text-sm lg:text-[1.1rem] md:px-5 lg:px-2 whitespace-pre-wrap font-normal leading-[1.75rem]'>
           Our adept team of Recruitment Advisors endeavours to identify and
           connect the most adept and dedicated nurses and care professionals
           with the specific requirements and aspirations of each esteemed care

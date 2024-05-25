@@ -124,7 +124,7 @@ const Consultation = () => {
                 </p>
                 <input
                   type='file'
-                  className=''
+                  className='file:mr-3 file:bg-white file:px-5 file:py-2 file:rounded-lg file:text-[#26465B] file:border-[2px] file:border-[#84C3B3]'
                   // placeholder='choose a file'
                 />
 
